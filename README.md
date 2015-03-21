@@ -100,7 +100,10 @@ Off course if you find bugs or have additions to the other clerks, see there for
 
 ## Further reading
 
-The [Userguide](http://rubyclerks.org/user_guide/01_index.html) is almost done, and there will be a developer guide (soon).
+If you got this far and still have question , mail me, or mail the [list](https://groups.google.com/forum/#!forum/rubyclerks)
 
-Also there is a [google group](https://groups.google.com/forum/#!forum/rubyclerks) where you can connect with other developers.
+Check the [User Guide](http://rubyclerks.org/user_guide/01_index.html), 
+then the [Developer Guide](http://rubyclerks.org/developer_guide/01_index.html).
+
+Fill issues if you find, or discuss with me for ideas.
 
