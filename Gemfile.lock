@@ -44,7 +44,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/print_clerk.git
-  revision: 289ed808a6b2f233bd06c3718f86d894d57ce936
+  revision: d48450bbc70958891c17a69c510da450afe39fd2
   specs:
     print_clerk (0.4)
       barby (~> 0.6)
