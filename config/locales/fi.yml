@@ -12,6 +12,7 @@ fi:
   must_accept: Toimitusehdot on hyväksyttävä ennen tilausta.
   no_order_found: Tilausta ei löytynyt
   no_orders_yet: Sinulla ei ole vielä tilauksia
+  no_stock: Tuote tilapäisesti lopussa
   notice: Huom
   order_confirmation: Tilausvahvistus
   order_enough_for_free_shipping: Tilauksesi ylittää rahtirajan, ilmainen toimitus!

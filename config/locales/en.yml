@@ -11,6 +11,7 @@ en:
   must_accept: You must accept Terms and Conditions before making an order.
   no_order_found: Order not found
   no_orders_yet: You have no orders yet
+  no_stock: Temporarily out of stock
   notice: 'Note:'
   order_confirmation: Order confirmation
   order_enough_for_free_shipping: "Your order qualifies for free shipping!"

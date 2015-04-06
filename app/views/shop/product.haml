@@ -30,7 +30,7 @@
                   .row
                     .col-md-10
                       %button#add-to-cart-button.btn.btn-primary{:type => :submit, :class => @product.has_inventory? || "disabled" }
-                        = t(:add_to_basket)
+                        = @product.has_inventory? ? t(:add_to_basket) : t(:no_stock)
     
     .row
       .col-md-12
