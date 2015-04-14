@@ -24,6 +24,6 @@ Rails.application.routes.draw do
 
   mount OfficeClerk::Engine => "/"
 
-  match '*path', via: :all, to: 'page#error_404' #if Rails.production?
+  match '*path', via: :all, to: 'shop#error_404' #if Rails.production?
 
 end
