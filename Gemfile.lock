@@ -37,7 +37,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/post_clerk.git
-  revision: 02c147b5b5c964f942f649ab2249f101c4190301
+  revision: 83bca7d32a1886bb424e6f21d8c9fc724f8a8fa2
   specs:
     post_clerk (0.4)
       office_clerk (~> 0.8)
@@ -84,7 +84,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.6)
     arel (5.0.1.20140414130214)
-    autoprefixer-rails (5.1.8.1)
+    autoprefixer-rails (5.1.9)
       execjs
       json
     barby (0.6.2)
@@ -214,7 +214,7 @@ GEM
     method_source (0.8.2)
     mime-types (2.4.3)
     mini_portile (0.6.0)
-    minitest (5.5.1)
+    minitest (5.6.0)
     multi_json (1.11.0)
     newrelic_rpm (3.9.8.273)
     nokogiri (1.6.3.1)
