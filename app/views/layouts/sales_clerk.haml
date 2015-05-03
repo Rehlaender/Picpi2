@@ -9,8 +9,9 @@
     %title Auringosta Itään, Kuusta Länteen
     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
     %meta{content: "width=device-width, initial-scale=1.0, maximum-scale=1", name: "viewport"}
-    %meta{content: "Sisustus, Lifestyle, luomukosmetiikka , luonnonkosmetiikka , farfalla", name: "keywords"}
-    = stylesheet_link_tag "sales_clerk" , :media => "all"
+    %meta{content: "Sisustus, Lifestyle, luomukosmetiikka , luonnonkosmetiikka , helsinki , farfalla", name: "keywords"}
+    %meta{content: 'Sisustus Lifestyle luomukosmetiikka  luonnonkosmetiikka  helsinki  farfalla', name: 'description'}
+    = stylesheet_link_tag "sales_clerk" , :media => 'all'
     = javascript_include_tag "sales_clerk"
     = csrf_meta_tags
     -if ENV["KAUPPA_ID"]
@@ -32,20 +33,20 @@
                 .col-md-6
                   %a{href: "/"}
                     =image_tag "sales_clerk/spacer.gif", :height => "80", :width => "650"
-                  
+
                 .col-md-6
                   %ul.nav.navbar-nav.navbar-right.hidden-print
-                    %li.dropdown 
+                    %li.dropdown
                       %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
                         Auringosta Itään, Kuusta Länteen
                         %b.caret
-                      %ul.dropdown-menu 
-                        %li{:role => "presentation"} 
+                      %ul.dropdown-menu
+                        %li{:role => "presentation"}
                           %a{:href => "/page/liikkeemme", :role => "menuitem", :tabindex => "-1"}
                             = t(:our_shop)
-                          
-                        %li{:role => "presentation"} 
-                          %a{:href => "/page/toimitusehdot", :role => "menuitem", :tabindex => "-1"} 
+
+                        %li{:role => "presentation"}
+                          %a{:href => "/page/toimitusehdot", :role => "menuitem", :tabindex => "-1"}
                             = t(:terms)
 
                     %li#link-to-cart
@@ -63,15 +64,15 @@
                       %ul.dropdown-menu
                         - if current_clerk
                           %li= link_to t(:sign_out), office.sign_out_path
-                          %li{:role => "presentation"} 
+                          %li{:role => "presentation"}
                             %a{:href => "/history", :role => "menuitem", :tabindex => "-1"}
                               = t(:order_history)
                         - else
                           %li= link_to t(:sign_up), office.sign_up_path
-                          %li= link_to t(:sign_in), office.sign_in_path                          
-          
+                          %li= link_to t(:sign_in), office.sign_in_path
+
       .main
-        - message = flash[:notice].blank? ? flash[:error] : flash[:notice] 
+        - message = flash[:notice].blank? ? flash[:error] : flash[:notice]
         - unless message.blank?
           .row.alert-notice
             .col-md-4
@@ -86,7 +87,6 @@
           .col-md-12
             = yield
 
-            
+
 
         =render "layouts/footer"
-            
