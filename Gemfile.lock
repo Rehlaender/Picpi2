@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/office_clerk.git
-  revision: 6bdbd2aea66ec3f197613535b55cad5065f5a89f
+  revision: 7991f83dbb11f52b5c9b5c4cae18b6a6cf04a21c
   specs:
     office_clerk (0.8)
       bcrypt-ruby (~> 3.1)
@@ -44,7 +44,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/print_clerk.git
-  revision: 8e38cfde6e7aa4cc342970096e92ed03c1bb9729
+  revision: 14c173070cdf05ace07478b585ee97741f251f5a
   specs:
     print_clerk (0.4)
       barby (~> 0.6)
@@ -84,7 +84,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.6)
     arel (5.0.1.20140414130214)
-    autoprefixer-rails (5.2.0)
+    autoprefixer-rails (5.2.1.1)
       execjs
       json
     barby (0.6.2)
@@ -100,7 +100,7 @@ GEM
       rack (>= 0.9.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-    bootstrap-sass (3.3.4.1)
+    bootstrap-sass (3.3.5)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.2.19)
     bootstrap_form (2.3.0)
@@ -196,7 +196,7 @@ GEM
     jquery-ui-rails (5.0.5)
       railties (>= 3.2.16)
     json (1.8.2)
-    kramdown (1.7.0)
+    kramdown (1.8.0)
     launchy (2.4.3)
       addressable (~> 2.3)
     libv8 (3.16.14.3)
@@ -213,17 +213,19 @@ GEM
       mime-types (>= 1.16, < 3)
     method_source (0.8.2)
     mime-types (2.4.3)
+    mimemagic (0.3.0)
     mini_portile (0.6.0)
     minitest (5.6.0)
     multi_json (1.11.0)
     newrelic_rpm (3.9.8.273)
     nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
-    paperclip (4.2.1)
-      activemodel (>= 3.0.0)
-      activesupport (>= 3.0.0)
-      cocaine (~> 0.5.3)
+    paperclip (4.3.0)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      cocaine (~> 0.5.5)
       mime-types
+      mimemagic (= 0.3.0)
     pdf-core (0.4.0)
     polyamorous (1.2.0)
       activerecord (>= 3.0)
@@ -272,7 +274,7 @@ GEM
     rb-readline (0.5.1)
     ref (1.0.5)
     reference_number (0.0.1)
-    request_store (1.1.0)
+    request_store (1.2.0)
     rspec (3.1.0)
       rspec-core (~> 3.1.0)
       rspec-expectations (~> 3.1.0)
