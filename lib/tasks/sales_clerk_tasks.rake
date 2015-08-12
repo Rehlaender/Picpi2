@@ -1,7 +1,7 @@
 
 namespace :db do
 desc "Load sample english shop database"
-task english_fixtures: :environment do
+task fixtures: :environment do
   require 'active_record/fixtures'
   fixtures_dir = File.join(Rails.root, '/spec/fixtures/en')
   Dir.glob(File.join(fixtures_dir,'*.yml')).each do |file|
