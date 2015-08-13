@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/office_clerk.git
-  revision: 7991f83dbb11f52b5c9b5c4cae18b6a6cf04a21c
+  revision: 68c3fbd6c683c9e82e5138640b62841ce1ccd7a6
   specs:
     office_clerk (0.8)
       bcrypt-ruby (~> 3.1)
@@ -171,7 +171,7 @@ GEM
     guard-rspec (4.3.1)
       guard (~> 2.1)
       rspec (>= 2.14, < 4.0)
-    haml (4.0.6)
+    haml (4.0.7)
       tilt
     highline (1.6.21)
     hike (1.2.3)
