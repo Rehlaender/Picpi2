@@ -51,7 +51,6 @@ class ShopController < ApplicationController
     elsif clerk = current_clerk
       @order = Order.where(:email => clerk.email).first
     end
-    gon.order = @order
     return redirect_to(office.sign_in_path , :notice => notice) if @order.blank?
   end
 
