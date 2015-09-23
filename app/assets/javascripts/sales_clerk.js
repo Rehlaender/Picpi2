@@ -2,6 +2,7 @@
 //= require bootstrap
 //= require jquery-ui
 //= require_self
+//= require stripe_clerk/charges
 
 function shipmentSelected(){
   var val = $("input[name='order[shipment_type]']:checked").data("price");
