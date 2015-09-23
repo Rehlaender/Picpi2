@@ -23,6 +23,7 @@ Rails.application.routes.draw do
   get "/404", :to => "application#error"
 
   mount OfficeClerk::Engine => "/"
+  mount StripeClerk::Engine => "/"
 
   match '*path', via: :all, to: 'shop#error_404' #if Rails.production?
 

@@ -23,6 +23,7 @@ class ShopController < ApplicationController
   def checkout
     @order = Order.new :ordered_on => Date.today
     @order.basket = current_basket
+
     if(request.get?)
       @order.email = current_clerk.email if current_clerk
       @order.shipment_type = "pickup" # price is 0 automatically
@@ -50,6 +51,7 @@ class ShopController < ApplicationController
     elsif clerk = current_clerk
       @order = Order.where(:email => clerk.email).first
     end
+    gon.order = @order
     return redirect_to(office.sign_in_path , :notice => notice) if @order.blank?
   end
 
