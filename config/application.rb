@@ -30,10 +30,10 @@ module SalesClerk
         load(c)
       end
     end
-    
+
     config.middleware.use Rack::Attack
-    
-    config.i18n.default_locale = :en
+
+    config.i18n.default_locale = ENV["KAUPPA_ID"].to_s.include?("12603339") ? :fi : :en
 
   end
 end
