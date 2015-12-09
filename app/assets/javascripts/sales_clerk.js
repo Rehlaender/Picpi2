@@ -1,6 +1,6 @@
-//= require jquery
-//= require bootstrap
-//= require jquery-ui
+//= require jquery.min
+//= require jquery-ui/datepicker
+//= require jquery-ui/datepicker-fi
 //= require_self
 
 function shipmentSelected(){
@@ -37,4 +37,3 @@ $(document).ready(function(){
 $(document).ready(function(){
   $(".alert-shop").delay(5000).fadeOut(400);
 });
-  
