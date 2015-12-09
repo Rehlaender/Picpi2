@@ -3,7 +3,7 @@
  *= require rails_bootstrap_forms
  */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans); 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 $highlight: #108BAD;
 $highlight-1: scale-color($highlight, $lightness: 10%);
@@ -29,7 +29,7 @@ ul.cat {
 
 .navbar-nav li a {
   font-size: 14px;
-  color: #ffffff !important; 
+  color: #ffffff !important;
   text-shadow: black 1px 1px 03px;
 	}
 
@@ -42,12 +42,12 @@ ul.cat {
 .top-bar-section ul {
     background: #ffffff;
     }
-    
+
 .logo {
   	background-image: image-url("sales_clerk/kansi.jpg");
   	background-repeat: no-repeat;
     background-position: center center;
-}   
+}
 
 .top-bar-section form {
     background-color: $highlight;
@@ -66,7 +66,7 @@ ul.cat {
 	font-size: 1.2em;
 	strong, b {
   color: $highlight;
-  }  
+  }
 }
 
 .footer2 {
@@ -193,7 +193,7 @@ text-shadow: rgb(255, 255, 255) 0px 0px 10px;
   position: relative;
   border: 1px solid #5BE7E2;
   box-shadow: 2px 2px 5px #E8EDF0;
-  overflow: hidden;	
+  overflow: hidden;
   }
 
 .product-container h4 {
@@ -221,8 +221,8 @@ text-shadow: rgb(255, 255, 255) 0px 0px 10px;
 	position: absolute;
 	bottom: 0;
 	right: 0;
-}  
-    
+}
+
 .product-fact {
   border-top: 1px solid #0078ff;
   background: rgba(255, 255, 255, 0.7);
@@ -234,7 +234,7 @@ text-shadow: rgb(255, 255, 255) 0px 0px 10px;
 .product-fact	p {
 	font-size: 1.2rem;
 	font-weight: 500;
-	color: #000000; 
+	color: #000000;
 	line-height: 110%;
 	margin-bottom: 3px;
 }
@@ -295,7 +295,7 @@ h1.product-title {
 	font-size: .9em;
 	table {
 	border: 0px;
-	} 
+	}
 }
 
 .frame {
@@ -308,7 +308,7 @@ h1.product-title {
 }
 
 @media screen
-{    
+{
     .no-screen, .no-screen *
     {
         display: none !important;
@@ -322,7 +322,7 @@ h1.product-title {
 
 
 body {
-    margin-top: 50px; 
+    margin-top: 50px;
     /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
@@ -365,21 +365,21 @@ background-color: #0A6779; }
   color: #ffffff;
   text-align: center;
   box-shadow: 4px 4px 8px #0069A8;
-	
+
  }
 
 .alert-danger {
   margin: 10px 15px 0px 15px;
   }
-  
+
 .alert-notice {
   margin: 1px;
   width: 1110px;
 	position: absolute;
 	top: 120px;
 	z-index: 30;
-  
-} 
+
+}
 
 .alert-dismissible .close {
 color: black !important;
@@ -391,28 +391,28 @@ color: black !important;
 }
 
 .bg-high1 {
-  background-color: $highlight-1;  
-}  
+  background-color: $highlight-1;
+}
 
 .bg-high2 {
-  background-color: $highlight-2;  
-}  
+  background-color: $highlight-2;
+}
 
 .bg-high3 {
-  background-color: $highlight-3;  
-}  
+  background-color: $highlight-3;
+}
 
 .bg-high7 {
-  background-color: $highlight-7;  
-}  
+  background-color: $highlight-7;
+}
 
 .bg-high8 {
-  background-color: $highlight-8;  
-}  
+  background-color: $highlight-8;
+}
 
 .bg-high9 {
-  background-color: $highlight-9;  
-}  
+  background-color: $highlight-9;
+}
 
 .welcome {
   max-width: 92%;
@@ -424,11 +424,11 @@ color: black !important;
   line-height: 1.33;
   border-radius: 6px;
   }
-  
+
 .dropdown-menu {
   background-color: $highlight-2;
   color: #ffffff;
-  } 
+  }
 
 .dropdown-menu > li > a {
   color: #ffffff;
@@ -436,17 +436,17 @@ color: black !important;
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   background-color: $highlight-8; }
-  
+
 .popover, .popover-title {
   font-size: 11px;
   text-align: left;
-}  
+}
 
 popover {
 border: 1px solid $highlight-7;
 }
 
-.popover-title { 
+.popover-title {
 font-weight: bold;
 background-color: D4E6EE;
 border-bottom: $highlight-3;
@@ -478,7 +478,7 @@ h6.product-hint {
 .product-hint-pic {
   width: 40px;
   float: left;
-  text-align: center; 
+  text-align: center;
   margin-right: 5px;
   }
 
@@ -495,7 +495,7 @@ h6.product-hint {
 
 
 .tdpic td {
-  border-left: 1px solid #94cef6; 
+  border-left: 1px solid #94cef6;
   width: 50px;
   }
 
@@ -503,11 +503,11 @@ h6.product-hint {
   border-right: 1px solid #94cef6;
   font-size: .95em;
   width: 250px;
-  
-  } 
 
-  
-  
+  }
+
+
+
 
 .text-black a {
   color: #000000;
