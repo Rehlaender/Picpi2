@@ -3,7 +3,7 @@ Category_1:
   id: 1
   online: true
   name: Luomukosmetiikka
-  description: ! "Farfallan ylellisissä luomulaatuisissa tuotteissa yhdistyy ainutlaatuisella
+  description: "Farfallan ylellisissä luomulaatuisissa tuotteissa yhdistyy ainutlaatuisella
     tavalla uutta luova dermatologinen tutkimus, huolella toteutettu eettisyys ja
     raikas, tyylikäs ulkoasu.\r\n"
   position: 1
@@ -18,7 +18,7 @@ Category_1:
   extra_picture_updated_at: 2014-12-05 19:11:52.189354000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-12-05 19:11:52.498327000 Z
-  summary: ! "**Farfallan huippulaatuista luomukosmetiikkaa - jopa 99% sertifioitua
+  summary: "**Farfallan huippulaatuista luomukosmetiikkaa - jopa 99% sertifioitua
     luomua (NaTrue)**\r\n"
 Category_2:
   id: 7
@@ -31,7 +31,7 @@ Category_2:
   link: korut
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-11-24 20:50:52.187761000 Z
-  summary: ! '**Koruja kaikkiin tilaisuuksiin!** '
+  summary: "**Koruja kaikkiin tilaisuuksiin!** "
 Category_3:
   id: 13
   online: true
@@ -51,18 +51,18 @@ Category_3:
   extra_picture_updated_at: 2014-12-06 06:17:29.559715000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-12-06 06:17:29.825880000 Z
-  summary: ! '**Herkut ja laadukkaat teet lahjaksi tai omaan keittiöön**'
+  summary: "**Herkut ja laadukkaat teet lahjaksi tai omaan keittiöön**"
 Category_4:
   id: 14
   category_id: 39
   online: false
   name: Valaisimet
-  description: ! 'Yksilöllisiä ja kauniita valaisimia tuomaan tunnelmaa kotiisi. '
+  description: 'Yksilöllisiä ja kauniita valaisimia tuomaan tunnelmaa kotiisi. '
   position: 1
   link: valaisimet
   created_at: 2014-01-28 21:09:18.000000000 Z
-  updated_at: 2014-11-24 20:51:05.084029000 Z
-  summary: ! ' **Tyylikkäitä valaisimia kotiisi!**'
+  updated_at: 2015-02-21 12:37:38.399242000 Z
+  summary: " **Tyylikkäitä valaisimia kotiisi!**"
 Category_5:
   id: 15
   category_id: 27
@@ -98,31 +98,32 @@ Category_8:
   category_id: 1
   online: true
   name: Hiustenhoito
-  description: ! "Shampoot, hoitotuotteet ja toimivat muotoilutuotteet kaikille eri
+  description: "Shampoot, hoitotuotteet ja toimivat muotoilutuotteet kaikille eri
     hiustyypeille. Farfallaa arvostavat sekä asiakkaat että alan ammattilaiset: sarja
-    on jo kymmenien ekokampaajien käytössä ympäri Suomen. BDIH -sertifioitua luonnonkosmetiikkaa
-    luomuainesosin. \r\n\r\n\r\n\r\n\r\n\r\n"
+    on jo kymmenien ekokampaajien käytössä ympäri Suomen. Shampoot ovat Natrue -sertifioitua
+    luonnonkosmetiikkaa, hoito- ja muotoilutuotteet BDIH -sertifioitua luonnonkosmetiikkaa.
+    \r\n\r\n\r\n\r\n\r\n\r\n"
   position: 2
   link: hiustenhoito
   main_picture_file_name: menu-hius.jpg
   main_picture_content_type: image/jpeg
-  main_picture_file_size: 32255
-  main_picture_updated_at: 2014-04-12 05:30:19.561094000 Z
+  main_picture_file_size: 30988
+  main_picture_updated_at: 2015-11-29 17:02:37.271783000 Z
   extra_picture_file_name: happiness.png
   extra_picture_content_type: image/png
   extra_picture_file_size: 56799
   extra_picture_updated_at: 2014-12-15 20:28:24.944513000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
-  updated_at: 2014-12-15 20:28:25.263364000 Z
-  summary: ! '**Farfallan hiustenhoitosarja on yksi kattavimmista 100% luonnollisista
-    hiustenhoitosarjoista markkinoilla.**'
+  updated_at: 2015-11-29 17:02:37.397041000 Z
+  summary: "**Farfallan hiustenhoitosarja on yksi kattavimmista 100% luonnollisista
+    hiustenhoitosarjoista markkinoilla.**"
 Category_9:
   id: 31
   category_id: 1
   online: true
   name: Vartalonhoito
-  description: ! "Toimivat luomudeodorantit, ravitsevat kosteusvoiteet, hurmaavat
-    kauneusöljyt, ihastuttavat suihkutuotteet...<br>Farfallan Feel Beautiful -vartalonhoitosarjassa
+  description: "Toimivat luomudeodorantit, ravitsevat kosteusvoiteet, hurmaavat kauneusöljyt,
+    ihastuttavat suihkutuotteet...<br>Farfallan Feel Beautiful -vartalonhoitosarjassa
     on neljä tuotelinjaa: sitruksenraikas ja mieto Daily Pleasure, ravitseva ja lempeän
     aistillinen Intense Frangipani, energisoiva ja kiinteyttävä Silhouette Miracle
     tai täysin tuoksuton herkän ihon Pure Sensitive. Valitse niistä juuri Sinulle
@@ -140,14 +141,14 @@ Category_9:
   extra_picture_updated_at: 2014-12-15 20:28:44.471156000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-12-15 20:28:44.773901000 Z
-  summary: ! '**Farfallan upea vartalonhoitosarja NaTrue -sertifioitua luomukosmetiikkaa:
-    jopa 99% luomua.** '
+  summary: "**Farfallan upea vartalonhoitosarja NaTrue -sertifioitua luomukosmetiikkaa:
+    jopa 99% luomua.** "
 Category_10:
   id: 32
   category_id: 1
   online: true
   name: Kasvojenhoito
-  description: ! "Parasta ja puhtainta hoitoa ihollesi! Farfallan luomulaatuisia tuotteita
+  description: "Parasta ja puhtainta hoitoa ihollesi! Farfallan luomulaatuisia tuotteita
     käytetään spa:issa ja hoitoloissa, jotka on valittu maailman parhaiden joukkoon.
     Voit poimia juuri sinun ihollesi sopivat huipputuotteet ja räätälöidä oman, täydellisen
     kasvojenhoito-ohjelmasi kuudesta eri tuotelinjasta. <em><br>\"Happiness makes
@@ -164,8 +165,8 @@ Category_10:
   extra_picture_updated_at: 2014-12-05 19:15:36.236972000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-12-05 19:15:36.583875000 Z
-  summary: ! '**Farfallan täydellinen kasvojenhoitosarja NaTrue -sertifioitua luomukosmetiikkaa
-    - yli 95%  luomua.** '
+  summary: "**Farfallan täydellinen kasvojenhoitosarja NaTrue -sertifioitua luomukosmetiikkaa
+    - yli 95%  luomua.** "
 Category_11:
   id: 34
   category_id: 1
@@ -189,16 +190,16 @@ Category_11:
   extra_picture_updated_at: 2014-12-15 20:29:26.960847000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-12-15 20:29:27.267520000 Z
-  summary: ! '**Farfallan luomuparfyymit** '
+  summary: "**Farfallan luomuparfyymit** "
 Category_12:
   id: 35
   category_id: 73
   online: true
   name: Luomu Aromasprayt ja Roll onit
-  description: ! ' Sprayta voi suihkauttaa suoraan iholle, kaulalle tai ranteisiin.
+  description: " Sprayta voi suihkauttaa suoraan iholle, kaulalle tai ranteisiin.
     Sitä voi myös suihkauttaa ilmaan ja virkistäytyä hengittämällä ihania tuoksuja.
     Kätevä pikku roll on kulkee helposti mukana ja voit sipaista sitä esim. ranteisiin
-    tai kaulalle. Pidä aina käsilaukussa!'
+    tai kaulalle. Pidä aina käsilaukussa!"
   position: 1
   link: aromasprayt
   main_picture_file_name: menu-aromat.jpg
@@ -211,14 +212,14 @@ Category_12:
   extra_picture_updated_at: 2014-12-15 20:32:10.888159000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-12-15 20:32:11.178989000 Z
-  summary: ! '**Mahtavia tuoksuja pienessä pullossa! Farfallan aromaterapeuttiset
-    sprayt ja -roll onit on suunniteltu avuksi joskus vaativan elämänmenon keskellä.**'
+  summary: "**Mahtavia tuoksuja pienessä pullossa! Farfallan aromaterapeuttiset sprayt
+    ja -roll onit on suunniteltu avuksi joskus vaativan elämänmenon keskellä.**"
 Category_13:
   id: 36
   category_id: 73
   online: true
   name: Luomu Huonesprayt
-  description: ! 'Spraypullosta on helppoa ja nopeaa suihkauttaa ihanaa ja luonnollista
+  description: 'Spraypullosta on helppoa ja nopeaa suihkauttaa ihanaa ja luonnollista
     raikkautta. Yhdeksän tuoksua erilaisiin tilanteisiin: huoneilman ja ilmapiirin
     raikastamiseen, tunnelman kohottajaksi, rentoutumiseen, keskittymiskyvyn parantamiseen
     jne.<br>Ihastuttava huonespray on myös hyvä lahjaidea! '
@@ -234,8 +235,8 @@ Category_13:
   extra_picture_updated_at: 2014-12-15 20:32:36.554530000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-12-15 20:32:36.847660000 Z
-  summary: ! '**Farfallan luomulaatuiset huonesprayt sopivat käytettäväksi kotona,
-    työpaikoilla, kylpyhuoneissa, autossa, hoitotiloissa jne.**'
+  summary: "**Farfallan luomulaatuiset huonesprayt sopivat käytettäväksi kotona, työpaikoilla,
+    kylpyhuoneissa, autossa, hoitotiloissa jne.**"
 Category_14:
   id: 38
   category_id: 32
@@ -264,8 +265,8 @@ Category_15:
   extra_picture_updated_at: 2014-12-06 06:21:00.203034000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-12-06 06:21:00.515562000 Z
-  summary: ! '**Raikasta tyyliä sisustukseen, houkutuksia lahjoiksi, koruja kaikkiin
-    tilaisuuksiin: töihin, linnanjuhliin tai hippoihin!** '
+  summary: "**Raikasta tyyliä sisustukseen, houkutuksia lahjoiksi, koruja kaikkiin
+    tilaisuuksiin: töihin, linnanjuhliin tai hippoihin!** "
 Category_16:
   id: 40
   category_id: 1
@@ -284,7 +285,7 @@ Category_16:
   extra_picture_updated_at: 2014-12-15 20:28:58.228526000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-12-15 20:28:58.566181000 Z
-  summary: ! '**Selkeä ja käytännöllinen, raikas ja tehokas - FEEL GREAT!**'
+  summary: "**Selkeä ja käytännöllinen, raikas ja tehokas - FEEL GREAT!**"
 Category_17:
   id: 41
   category_id: 75
@@ -300,8 +301,8 @@ Category_18:
   id: 42
   category_id: 1
   online: true
-  name: Öljyt
-  description: ! "Tuoksuttomat perusöljyt, miedosti tuoksuvat ihoöljyt, upeat  jalokiviöljyt
+  name: "Öljyt"
+  description: "Tuoksuttomat perusöljyt, miedosti tuoksuvat ihoöljyt, upeat  jalokiviöljyt
     - kaikki luomua.\r\nFarfallan öljyillä on kolmen tähden NaTrue -sertifikaatti
     (100% luonnollisista aineista, joista vähintään 98% sertifioitua luomua)."
   position: 5
@@ -316,7 +317,7 @@ Category_18:
   extra_picture_updated_at: 2014-12-15 20:29:13.890983000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-12-15 20:29:14.238234000 Z
-  summary: ! '**Farfalla on luomulaatuisten öljyjen asiantuntija.**'
+  summary: "**Farfalla on luomulaatuisten öljyjen asiantuntija.**"
 Category_19:
   id: 43
   category_id: 27
@@ -450,7 +451,7 @@ Category_30:
   category_id: 39
   online: false
   name: Peilit
-  description: ! '**Upeita peilejä yksilölliseen sisustamiseen.** '
+  description: "**Upeita peilejä yksilölliseen sisustamiseen.** "
   position: 1
   link: peilit
   created_at: 2014-01-28 21:16:00.084726000 Z
@@ -570,7 +571,7 @@ Category_41:
   category_id: 73
   online: true
   name: Huonetuoksut
-  description: ! "**Huolella valikoitu lajitelma huonetuoksuja.**Tyylikästä raikkautta
+  description: "**Huolella valikoitu lajitelma huonetuoksuja.**Tyylikästä raikkautta
     kotiin tai työpaikalle.\r\n\r\n\r\n"
   position: 1
   link: huonetuoksut
@@ -686,7 +687,7 @@ Category_50:
   category_id: 13
   online: true
   name: Tee
-  description: ! "Huolella valittu lajitelma teetä:\r\nhuippulaatuiset maustamattomat
+  description: "Huolella valittu lajitelma teetä:\r\nhuippulaatuiset maustamattomat
     teelaadut parhailta viljelmiltä ja inspiroivia teesekoituksia. Myös valikoima
     luomulaatuisia ja terveysvaikutteisia teetä. "
   position: 1
@@ -701,7 +702,7 @@ Category_50:
   extra_picture_updated_at: 2014-12-06 06:16:39.476701000 Z
   created_at: 2014-02-09 19:25:36.919070000 Z
   updated_at: 2014-12-06 06:16:39.790414000 Z
-  summary: ! "**Ihanat teet!**\r\n"
+  summary: "**Ihanat teet!**\r\n"
 Category_51:
   id: 75
   online: true
@@ -721,13 +722,13 @@ Category_51:
   extra_picture_updated_at: 2014-12-06 06:19:24.390109000 Z
   created_at: 2014-02-09 19:41:32.135874000 Z
   updated_at: 2014-12-06 06:19:24.704815000 Z
-  summary: ! '**Tyylikkäät vaatteet ja huivit**'
+  summary: "**Tyylikkäät vaatteet ja huivit**"
 Category_52:
   id: 76
   category_id: 1
   online: false
   name: Eteeriset öljyt
-  description: ! 'Erittäin laaja valikoima Farfallan huippulaatuisia eteerisiä öljyjä,
+  description: 'Erittäin laaja valikoima Farfallan huippulaatuisia eteerisiä öljyjä,
     joista suuri osa on luomulaatuisia. Aromaterapia ja eteeriset öljyt ovat Farfallan
     erikoisalaa: Farfallan asiantuntemus nimenomaan tuoksujen alalla on maailman huipputasoa. '
   position: 1
@@ -740,11 +741,11 @@ Category_53:
   category_id: 1
   online: false
   name: Kylpytuotteet
-  description: ! '**Sveitsiläinen Farfalla valmistaa upeita luomulaatuisia spa- ja
-    kylpytuotteita, joita käytetään mm. maailman parhaiden joukkoon luokitelluissa
-    kylpylöissä.** Meiltä saat nyt Farfallan huippulaatuiset luomukylpyvaahdot ja
-    -suolat, joilla voit hoitaa ja hemmotella itseäsi kotona. Farfallan kylpytuotteet
-    ovat myös ihastuttavia ja tyylikkäitä lahjoja!'
+  description: "**Sveitsiläinen Farfalla valmistaa upeita luomulaatuisia spa- ja kylpytuotteita,
+    joita käytetään mm. maailman parhaiden joukkoon luokitelluissa kylpylöissä.**
+    Meiltä saat nyt Farfallan huippulaatuiset luomukylpyvaahdot ja -suolat, joilla
+    voit hoitaa ja hemmotella itseäsi kotona. Farfallan kylpytuotteet ovat myös ihastuttavia
+    ja tyylikkäitä lahjoja!"
   position: 1
   link: kylpytuotteet
   created_at: 2014-08-19 15:16:05.611209000 Z
@@ -767,7 +768,7 @@ Category_55:
   name: Uutuudet ja löydöt
   description: ''
   position: 6
-  link: uutuudet_ja_löydöt
+  link: uutuudet_ja_loydot
   main_picture_file_name: menu-uutuus.jpg
   main_picture_content_type: image/jpeg
   main_picture_file_size: 25130
@@ -777,5 +778,20 @@ Category_55:
   extra_picture_file_size: 1100
   extra_picture_updated_at: 2014-12-15 20:36:01.873288000 Z
   created_at: 2014-11-12 15:29:21.036541000 Z
-  updated_at: 2014-12-15 20:36:02.128662000 Z
-  summary: ! '**Uutuuksia, löytöjä, erikoiseriä!**'
+  updated_at: 2015-11-10 20:56:08.555606000 Z
+  summary: "**Uutuuksia, löytöjä, erikoiseriä!**"
+Category_56:
+  id: 80
+  category_id: 79
+  online: false
+  name: Kukkaisvedet
+  description: "Farfallan puhtaat, huippulaatuiset kukkaisvedet on valmistettu luomuviljellyistä
+    kukkasista höyrytislaamalla. Monipuoliset kukkaisvedet sopivat kasvojen- ja hiustenhoitoon,
+    virkistäytymiseen, huonetuoksuiksi jne. \r\n\r\nKaikki voivat löytää juuri omalle
+    iholleen sopivan, ihastuttavan kasvoveden: valikoimassa on mm. anti age -vaikuttavia,
+    raikastavia, kosteuttavia, epäpuhtauksia tasapainottavia ja kirkastavia kukkaisvesiä."
+  position: 1
+  link: kukkaisvedet
+  created_at: 2015-11-29 09:40:51.274503000 Z
+  updated_at: 2015-11-29 09:45:20.325759000 Z
+  summary: ''
