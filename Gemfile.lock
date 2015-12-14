@@ -217,7 +217,7 @@ GEM
     mini_portile (0.6.0)
     minitest (5.8.3)
     multi_json (1.11.2)
-    mysql2 (0.4.2)
+    mysql2 (0.3.20)
     newrelic_rpm (3.9.8.273)
     nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
@@ -372,7 +372,7 @@ DEPENDENCIES
   i18n-tasks
   libv8 (= 3.16.14.3)
   lograge
-  mysql2
+  mysql2 (~> 0.3.13)
   newrelic_rpm
   office_clerk!
   post_clerk!
