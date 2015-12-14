@@ -141661,394 +141661,394 @@ Item_14166:
   updated_at: 2015-12-14 14:38:54.766624000 Z
 Item_14167:
   id: 23278
-  quantity: 5
-  price: 29.0
+  quantity: 3
+  price: 14.5
   tax: 24.0
   name: Lahjapakkaus Hellivä syli
   product_id: 6139
   basket_id: 25333
   created_at: 2015-12-14 14:59:53.306255000 Z
-  updated_at: 2015-12-14 15:00:33.902002000 Z
+  updated_at: 2015-12-14 18:37:10.473709000 Z
 Item_14168:
   id: 23279
-  quantity: 3
-  price: 29.0
+  quantity: 1
+  price: 14.5
   tax: 24.0
   name: Lahjapakkaus Onnenhetki
   product_id: 6140
   basket_id: 25333
   created_at: 2015-12-14 15:01:08.147401000 Z
-  updated_at: 2015-12-14 15:01:12.707509000 Z
+  updated_at: 2015-12-14 18:37:10.485997000 Z
 Item_14169:
   id: 23280
-  quantity: 2
-  price: 44.5
+  quantity: 1
+  price: 17.8
   tax: 24.0
   name: daily pleasure Lahjapakkaus
   product_id: 5045
   basket_id: 25333
   created_at: 2015-12-14 15:01:51.164237000 Z
-  updated_at: 2015-12-14 15:01:53.150120000 Z
+  updated_at: 2015-12-14 18:37:10.492220000 Z
 Item_14170:
   id: 23281
-  quantity: 3
-  price: 42.8
+  quantity: 1
+  price: 21.4
   tax: 24.0
   name: Men Lahjapakkaus
   product_id: 6106
   basket_id: 25333
   created_at: 2015-12-14 15:02:34.955362000 Z
-  updated_at: 2015-12-14 15:02:38.520803000 Z
+  updated_at: 2015-12-14 18:37:10.498311000 Z
 Item_14171:
   id: 23282
-  quantity: 3
-  price: 14.8
+  quantity: 2
+  price: 7.4
   tax: 24.0
   name: Men Deo Roll on
   product_id: 5314
   basket_id: 25333
   created_at: 2015-12-14 15:04:10.931398000 Z
-  updated_at: 2015-12-14 15:04:38.171626000 Z
+  updated_at: 2015-12-14 18:37:10.504346000 Z
 Item_14172:
   id: 23283
-  quantity: 3
-  price: 26.8
+  quantity: 1
+  price: 13.4
   tax: 24.0
   name: silhouette miracle Kuorintavoide
   product_id: 4508
   basket_id: 25333
   created_at: 2015-12-14 15:07:20.320718000 Z
-  updated_at: 2015-12-14 15:07:24.915361000 Z
+  updated_at: 2015-12-14 18:37:10.510408000 Z
 Item_14173:
   id: 23284
-  quantity: 2
-  price: 13.5
+  quantity: 0
+  price: 6.75
   tax: 24.0
   name: silhouette miracle Suihkugeeli
   product_id: 4506
   basket_id: 25333
   created_at: 2015-12-14 15:08:48.300301000 Z
-  updated_at: 2015-12-14 17:01:46.831116000 Z
+  updated_at: 2015-12-14 18:37:10.516455000 Z
 Item_14174:
   id: 23285
-  quantity: 3
-  price: 46.7
+  quantity: 1
+  price: 23.35
   tax: 24.0
   name: silhouette miracle Kiinteyttävä geeli
   product_id: 4504
   basket_id: 25333
   created_at: 2015-12-14 15:09:34.370100000 Z
-  updated_at: 2015-12-14 15:09:39.971411000 Z
+  updated_at: 2015-12-14 18:37:10.522448000 Z
 Item_14175:
   id: 23286
-  quantity: 4
-  price: 22.0
+  quantity: 1
+  price: 11.0
   tax: 24.0
   name: 'Kylpysuola Lahjapakkaus '
   product_id: 6104
   basket_id: 25333
   created_at: 2015-12-14 15:11:47.001425000 Z
-  updated_at: 2015-12-14 15:11:53.867256000 Z
+  updated_at: 2015-12-14 18:37:10.528489000 Z
 Item_14176:
   id: 23287
-  quantity: 1
-  price: 21.0
+  quantity: -1
+  price: 10.5
   tax: 24.0
   name: intense frangipani Vartalovoi
   product_id: 4521
   basket_id: 25333
   created_at: 2015-12-14 15:15:38.875919000 Z
-  updated_at: 2015-12-14 15:15:38.875919000 Z
+  updated_at: 2015-12-14 18:37:10.534531000 Z
 Item_14177:
   id: 23288
-  quantity: 5
-  price: 16.2
+  quantity: 1
+  price: 8.1
   tax: 24.0
   name: pure sensitive Käsivoide
   product_id: 4525
   basket_id: 25333
   created_at: 2015-12-14 15:33:34.598438000 Z
-  updated_at: 2015-12-14 15:33:43.477888000 Z
+  updated_at: 2015-12-14 18:37:10.540552000 Z
 Item_14178:
   id: 23289
-  quantity: 3
-  price: 13.4
+  quantity: 1
+  price: 6.7
   tax: 24.0
   name: pure sensitive Deo Roll-on
   product_id: 4524
   basket_id: 25333
   created_at: 2015-12-14 15:34:48.751970000 Z
-  updated_at: 2015-12-14 15:34:54.876669000 Z
+  updated_at: 2015-12-14 18:37:10.546707000 Z
 Item_14179:
   id: 23290
-  quantity: 2
-  price: 20.2
+  quantity: 1
+  price: 8.45
   tax: 24.0
   name: Luomu Kurkunsiemenöljy
   product_id: 6277
   basket_id: 25333
   created_at: 2015-12-14 15:51:57.990510000 Z
-  updated_at: 2015-12-14 15:52:00.191507000 Z
+  updated_at: 2015-12-14 18:37:10.552932000 Z
 Item_14180:
   id: 23291
-  quantity: 2
-  price: 24.0
+  quantity: 1
+  price: 12.0
   tax: 24.0
   name: Luomu Inkapähkinäöljy
   product_id: 6135
   basket_id: 25333
   created_at: 2015-12-14 15:52:22.592713000 Z
-  updated_at: 2015-12-14 15:52:26.090505000 Z
+  updated_at: 2015-12-14 18:37:10.558987000 Z
 Item_14181:
   id: 23292
-  quantity: 2
-  price: 17.5
+  quantity: 1
+  price: 8.75
   tax: 24.0
   name: Luomu Mustakuminaöljy
   product_id: 5865
   basket_id: 25333
   created_at: 2015-12-14 15:52:57.868258000 Z
-  updated_at: 2015-12-14 15:53:00.530046000 Z
+  updated_at: 2015-12-14 18:37:10.564952000 Z
 Item_14182:
   id: 23293
-  quantity: 2
-  price: 16.5
+  quantity: 1
+  price: 6.6
   tax: 24.0
   name: Luomu Calendulaöljy
   product_id: 5373
   basket_id: 25333
   created_at: 2015-12-14 15:53:32.692918000 Z
-  updated_at: 2015-12-14 15:53:34.549600000 Z
+  updated_at: 2015-12-14 18:37:10.571137000 Z
 Item_14183:
   id: 23294
   quantity: 1
-  price: 14.2
+  price: 5.2
   tax: 24.0
   name: Luomu Helokkiöljy
   product_id: 5368
   basket_id: 25333
   created_at: 2015-12-14 15:54:17.524328000 Z
-  updated_at: 2015-12-14 15:54:17.524328000 Z
+  updated_at: 2015-12-14 18:37:10.577153000 Z
 Item_14184:
   id: 23295
   quantity: 1
-  price: 20.2
+  price: 5.56
   tax: 24.0
   name: Luomu Villiruusuöljy
   product_id: 5367
   basket_id: 25333
   created_at: 2015-12-14 15:54:49.898555000 Z
-  updated_at: 2015-12-14 15:54:49.898555000 Z
+  updated_at: 2015-12-14 18:37:10.583178000 Z
 Item_14185:
   id: 23296
-  quantity: 2
-  price: 15.0
+  quantity: 1
+  price: 5.5
   tax: 24.0
   name: Luomu Macadamiaöljy
   product_id: 4994
   basket_id: 25333
   created_at: 2015-12-14 15:55:40.829652000 Z
-  updated_at: 2015-12-14 15:56:01.088880000 Z
+  updated_at: 2015-12-14 18:37:10.589238000 Z
 Item_14186:
   id: 23297
-  quantity: 2
-  price: 82.0
+  quantity: 1
+  price: 41.0
   tax: 24.0
   name: Eau de Parfum Essence Divine
   product_id: 6445
   basket_id: 25333
   created_at: 2015-12-14 15:58:58.629720000 Z
-  updated_at: 2015-12-14 15:59:07.774796000 Z
+  updated_at: 2015-12-14 18:37:10.595238000 Z
 Item_14187:
   id: 23298
-  quantity: 2
-  price: 61.0
+  quantity: 1
+  price: 29.95
   tax: 24.0
   name: Eau de Parfum Anima
   product_id: 356
   basket_id: 25333
   created_at: 2015-12-14 16:00:07.116785000 Z
-  updated_at: 2015-12-14 16:00:09.470330000 Z
+  updated_at: 2015-12-14 18:37:10.601264000 Z
 Item_14188:
   id: 23299
-  quantity: 2
-  price: 61.0
+  quantity: 1
+  price: 29.95
   tax: 24.0
   name: Eau de Parfum Nuvola
   product_id: 357
   basket_id: 25333
   created_at: 2015-12-14 16:00:12.999335000 Z
-  updated_at: 2015-12-14 16:00:15.506706000 Z
+  updated_at: 2015-12-14 18:37:10.607230000 Z
 Item_14189:
   id: 23300
-  quantity: 3
-  price: 14.0
+  quantity: 2
+  price: 7.0
   tax: 24.0
   name: Hellivä syli, Eteerinen öljyseos
   product_id: 6518
   basket_id: 25333
   created_at: 2015-12-14 16:02:21.976641000 Z
-  updated_at: 2015-12-14 16:02:28.331535000 Z
+  updated_at: 2015-12-14 18:37:10.613322000 Z
 Item_14190:
   id: 23301
-  quantity: 0
-  price: 16.0
+  quantity: -1
+  price: 8.0
   tax: 24.0
   name: Good Night eteerinen öljyseos
   product_id: 6276
   basket_id: 25333
   created_at: 2015-12-14 16:03:20.709709000 Z
-  updated_at: 2015-12-14 16:03:40.023079000 Z
+  updated_at: 2015-12-14 18:37:10.619492000 Z
 Item_14191:
   id: 23302
-  quantity: 1
-  price: 9.5
+  quantity: -1
+  price: 4.75
   tax: 24.0
   name: Sauna, Eteerinen öljyseos
   product_id: 5788
   basket_id: 25333
   created_at: 2015-12-14 16:07:42.165828000 Z
-  updated_at: 2015-12-14 16:07:42.165828000 Z
+  updated_at: 2015-12-14 18:37:10.625516000 Z
 Item_14192:
   id: 23303
-  quantity: 2
-  price: 38.9
+  quantity: 1
+  price: 15.56
   tax: 24.0
   name: age miracle Anti-age Silmänympärysvoide
   product_id: 5343
   basket_id: 25333
   created_at: 2015-12-14 16:11:11.377604000 Z
-  updated_at: 2015-12-14 16:11:13.931388000 Z
+  updated_at: 2015-12-14 18:37:10.631630000 Z
 Item_14193:
   id: 23304
-  quantity: 4
-  price: 41.0
+  quantity: 1
+  price: 20.5
   tax: 24.0
   name: age miracle Anti-age Seerumi
   product_id: 316
   basket_id: 25333
   created_at: 2015-12-14 16:11:29.756945000 Z
-  updated_at: 2015-12-14 16:12:18.810018000 Z
+  updated_at: 2015-12-14 18:37:10.637522000 Z
 Item_14194:
   id: 23305
-  quantity: 3
-  price: 46.0
+  quantity: 1
+  price: 23.0
   tax: 24.0
   name: age miracle Anti-age Yövoide
   product_id: 318
   basket_id: 25333
   created_at: 2015-12-14 16:12:34.139451000 Z
-  updated_at: 2015-12-14 16:13:03.173226000 Z
+  updated_at: 2015-12-14 18:37:10.643431000 Z
 Item_14195:
   id: 23306
-  quantity: 1
-  price: 49.9
+  quantity: 2
+  price: 24.95
   tax: 24.0
   name: age miracle Anti-age Päivävoide
   product_id: 315
   basket_id: 25333
   created_at: 2015-12-14 16:13:39.106344000 Z
-  updated_at: 2015-12-14 16:13:39.106344000 Z
+  updated_at: 2015-12-14 18:37:10.649486000 Z
 Item_14196:
   id: 23307
-  quantity: 3
-  price: 50.8
+  quantity: 1
+  price: 25.4
   tax: 24.0
   name: age miracle Tehokkaasti ravitseva anti-age -voide
   product_id: 5313
   basket_id: 25333
   created_at: 2015-12-14 16:14:08.397890000 Z
-  updated_at: 2015-12-14 16:14:14.484874000 Z
+  updated_at: 2015-12-14 18:37:10.655133000 Z
 Item_14197:
   id: 23308
-  quantity: 3
-  price: 31.0
+  quantity: 1
+  price: 15.5
   tax: 24.0
   name: in balance Tehoseerumi epäpuhtauksien hoitoon
   product_id: 311
   basket_id: 25333
   created_at: 2015-12-14 16:14:53.578568000 Z
-  updated_at: 2015-12-14 16:15:00.987504000 Z
+  updated_at: 2015-12-14 18:37:10.661230000 Z
 Item_14198:
   id: 23309
-  quantity: 3
-  price: 37.4
+  quantity: 1
+  price: 18.7
   tax: 24.0
   name: in balance Matta päivä- ja yövoide
   product_id: 309
   basket_id: 25333
   created_at: 2015-12-14 16:19:48.015402000 Z
-  updated_at: 2015-12-14 16:19:54.722416000 Z
+  updated_at: 2015-12-14 18:37:10.667268000 Z
 Item_14199:
   id: 23310
-  quantity: 3
-  price: 37.4
+  quantity: 1
+  price: 18.7
   tax: 24.0
   name: pure sensitive Rauhoittava kosteusvoide
   product_id: 319
   basket_id: 25333
   created_at: 2015-12-14 16:20:24.147992000 Z
-  updated_at: 2015-12-14 16:21:09.903246000 Z
+  updated_at: 2015-12-14 18:37:10.674396000 Z
 Item_14200:
   id: 23311
-  quantity: 2
-  price: 22.4
+  quantity: 1
+  price: 11.2
   tax: 24.0
   name: daily refresh Puhdistusemulsio
   product_id: 304
   basket_id: 25333
   created_at: 2015-12-14 16:22:44.300833000 Z
-  updated_at: 2015-12-14 16:22:47.593470000 Z
+  updated_at: 2015-12-14 18:37:10.680506000 Z
 Item_14201:
   id: 23312
-  quantity: 3
-  price: 18.6
+  quantity: 1
+  price: 14.3
   tax: 24.0
   name: daily refresh Hellävarainen kuorintavoide
   product_id: 308
   basket_id: 25333
   created_at: 2015-12-14 16:23:15.710501000 Z
-  updated_at: 2015-12-14 16:23:22.536964000 Z
+  updated_at: 2015-12-14 18:37:10.686554000 Z
 Item_14202:
   id: 23313
-  quantity: 2
-  price: 18.6
+  quantity: 1
+  price: 14.3
   tax: 24.0
   name: daily refresh Kirkastava kasvovesi
   product_id: 306
   basket_id: 25333
   created_at: 2015-12-14 16:23:37.522572000 Z
-  updated_at: 2015-12-14 16:24:10.186329000 Z
+  updated_at: 2015-12-14 18:37:10.692563000 Z
 Item_14203:
   id: 23314
-  quantity: 3
-  price: 31.0
+  quantity: 1
+  price: 15.5
   tax: 24.0
   name: intense moisture Ravitseva kasvonaamio
   product_id: 314
   basket_id: 25333
   created_at: 2015-12-14 16:24:56.407985000 Z
-  updated_at: 2015-12-14 16:25:02.713735000 Z
+  updated_at: 2015-12-14 18:37:10.698573000 Z
 Item_14204:
   id: 23315
-  quantity: 2
-  price: 37.4
+  quantity: 1
+  price: 18.7
   tax: 24.0
   name: intense moisture Ravitseva voide
   product_id: 312
   basket_id: 25333
   created_at: 2015-12-14 16:25:50.620180000 Z
-  updated_at: 2015-12-14 16:25:54.296497000 Z
+  updated_at: 2015-12-14 18:37:10.704825000 Z
 Item_14205:
   id: 23316
-  quantity: 2
-  price: 46.8
+  quantity: 1
+  price: 23.2
   tax: 24.0
   name: Bliss Cream
   product_id: 346
   basket_id: 25333
   created_at: 2015-12-14 16:26:37.791822000 Z
-  updated_at: 2015-12-14 16:26:41.127493000 Z
+  updated_at: 2015-12-14 18:37:10.711632000 Z
 Item_14206:
   id: 23317
   quantity: 1
@@ -142081,221 +142081,381 @@ Item_14208:
   updated_at: 2015-12-14 16:52:55.282998000 Z
 Item_14209:
   id: 23321
-  quantity: 4
-  price: 13.2
+  quantity: 1
+  price: 6.6
   tax: 24.0
   name: Päivittäiseen pesuun – Granaattiomenashampoo
   product_id: 6318
   basket_id: 25333
   created_at: 2015-12-14 17:01:39.566766000 Z
-  updated_at: 2015-12-14 17:02:29.480338000 Z
+  updated_at: 2015-12-14 18:37:10.717800000 Z
 Item_14210:
   id: 23322
-  quantity: 1
-  price: 13.2
+  quantity: -1
+  price: 6.6
   tax: 24.0
   name: Hellävarainen – Iiris-Candeia shampoo
   product_id: 6313
   basket_id: 25333
   created_at: 2015-12-14 17:02:54.368861000 Z
-  updated_at: 2015-12-14 17:02:54.368861000 Z
+  updated_at: 2015-12-14 18:37:10.723901000 Z
 Item_14211:
   id: 23323
-  quantity: 3
-  price: 13.2
+  quantity: 2
+  price: 6.6
   tax: 24.0
   name: Kiilto ja volyymi – Frangipani-Inkapähkinä shampoo
   product_id: 6314
   basket_id: 25333
   created_at: 2015-12-14 17:03:39.274483000 Z
-  updated_at: 2015-12-14 17:03:47.187995000 Z
+  updated_at: 2015-12-14 18:37:10.729970000 Z
 Item_14212:
   id: 23324
-  quantity: 3
-  price: 13.2
+  quantity: 1
+  price: 6.6
   tax: 24.0
   name: Korjaava – Kastanja-Jojoba shampoo
   product_id: 6315
   basket_id: 25333
   created_at: 2015-12-14 17:04:42.945269000 Z
-  updated_at: 2015-12-14 17:04:50.951338000 Z
+  updated_at: 2015-12-14 18:37:10.736031000 Z
 Item_14213:
   id: 23325
-  quantity: 3
-  price: 13.2
+  quantity: 1
+  price: 6.6
   tax: 24.0
   name: Värjätyille hiuksille – Manteli-Saksanpähkinä shampoo
   product_id: 6316
   basket_id: 25333
   created_at: 2015-12-14 17:05:37.054891000 Z
-  updated_at: 2015-12-14 17:05:45.072536000 Z
+  updated_at: 2015-12-14 18:37:10.742109000 Z
 Item_14214:
   id: 23326
-  quantity: 1
-  price: 13.2
+  quantity: -1
+  price: 6.6
   tax: 24.0
   name: Tasapainottava – Neem-Joazeiro shampoo
   product_id: 6317
   basket_id: 25333
   created_at: 2015-12-14 17:06:06.671493000 Z
-  updated_at: 2015-12-14 17:06:06.671493000 Z
+  updated_at: 2015-12-14 18:37:10.748203000 Z
 Item_14215:
   id: 23327
-  quantity: 5
-  price: 18.2
+  quantity: 2
+  price: 9.1
   tax: 24.0
   name: Villiruusu Hiustenhoitoaine
   product_id: 352
   basket_id: 25333
   created_at: 2015-12-14 17:06:39.585774000 Z
-  updated_at: 2015-12-14 17:06:48.288575000 Z
+  updated_at: 2015-12-14 18:37:10.754282000 Z
 Item_14216:
   id: 23328
-  quantity: 2
-  price: 14.7
+  quantity: 1
+  price: 7.35
   tax: 24.0
   name: Korjaava Hiusnaamio
   product_id: 403
   basket_id: 25333
   created_at: 2015-12-14 17:07:38.027401000 Z
-  updated_at: 2015-12-14 17:07:41.900542000 Z
+  updated_at: 2015-12-14 18:37:10.760386000 Z
 Item_14217:
   id: 23329
-  quantity: 3
-  price: 13.4
+  quantity: 1
+  price: 6.7
   tax: 24.0
   name: Energisoiva aloe vera geeli jaloille
   product_id: 5886
   basket_id: 25333
   created_at: 2015-12-14 17:11:30.958010000 Z
-  updated_at: 2015-12-14 17:11:42.388580000 Z
+  updated_at: 2015-12-14 18:37:10.766447000 Z
 Item_14218:
   id: 23330
-  quantity: 2
-  price: 33.0
+  quantity: 1
+  price: 20.3
   tax: 24.0
   name: Crystal Balance -ihoöljyt setti
   product_id: 6413
   basket_id: 25333
   created_at: 2015-12-14 17:20:36.766361000 Z
-  updated_at: 2015-12-14 17:20:42.886651000 Z
+  updated_at: 2015-12-14 18:37:10.772640000 Z
 Item_14219:
   id: 23331
   quantity: 2
-  price: 24.2
+  price: 12.1
   tax: 24.0
   name: Crystal Balance -ihoöljy Anti-Stress
   product_id: 697
   basket_id: 25333
   created_at: 2015-12-14 17:21:30.718142000 Z
-  updated_at: 2015-12-14 17:26:51.884387000 Z
+  updated_at: 2015-12-14 18:37:10.778788000 Z
 Item_14220:
   id: 23332
-  quantity: 3
-  price: 24.2
+  quantity: 2
+  price: 12.1
   tax: 24.0
   name: Crystal Balance -ihoöljy Turvallisuuden tunne
   product_id: 5478
   basket_id: 25333
   created_at: 2015-12-14 17:22:01.065928000 Z
-  updated_at: 2015-12-14 17:22:12.877445000 Z
+  updated_at: 2015-12-14 18:37:10.784890000 Z
 Item_14221:
   id: 23333
-  quantity: 2
-  price: 24.2
+  quantity: 1
+  price: 12.1
   tax: 24.0
   name: Crystal Balance -ihoöljy Tyyneys
   product_id: 5397
   basket_id: 25333
   created_at: 2015-12-14 17:22:33.511399000 Z
-  updated_at: 2015-12-14 17:22:44.553411000 Z
+  updated_at: 2015-12-14 18:37:10.790942000 Z
 Item_14222:
   id: 23334
-  quantity: 2
-  price: 24.2
+  quantity: 1
+  price: 12.1
   tax: 24.0
   name: Crystal Balance -ihoöljy Elämänilo
   product_id: 710
   basket_id: 25333
   created_at: 2015-12-14 17:23:09.723134000 Z
-  updated_at: 2015-12-14 17:23:21.129613000 Z
+  updated_at: 2015-12-14 18:37:10.797084000 Z
 Item_14223:
   id: 23335
   quantity: 1
-  price: 24.2
+  price: 12.1
   tax: 24.0
   name: Crystal Balance -ihoöljy Nuoruudenlähde
   product_id: 713
   basket_id: 25333
   created_at: 2015-12-14 17:25:56.077037000 Z
-  updated_at: 2015-12-14 17:25:56.077037000 Z
+  updated_at: 2015-12-14 18:37:10.803106000 Z
 Item_14224:
   id: 23336
-  quantity: 1
-  price: 13.0
+  quantity: -1
+  price: 6.5
   tax: 24.0
   name: Luomu Piparminttu kukkaisvesi
   product_id: 6065
   basket_id: 25333
   created_at: 2015-12-14 17:29:55.440753000 Z
-  updated_at: 2015-12-14 17:29:55.440753000 Z
+  updated_at: 2015-12-14 18:37:10.809200000 Z
 Item_14225:
   id: 23337
-  quantity: 1
-  price: 14.0
+  quantity: -1
+  price: 7.0
   tax: 24.0
   name: Luomu Ylang ylang kukkaisvesi
   product_id: 6015
   basket_id: 25333
   created_at: 2015-12-14 17:30:43.113411000 Z
-  updated_at: 2015-12-14 17:30:43.113411000 Z
+  updated_at: 2015-12-14 18:37:10.815305000 Z
 Item_14226:
   id: 23338
-  quantity: 2
-  price: 16.0
+  quantity: 1
+  price: 7.92
   tax: 24.0
   name: Luomu Appelsiininkukkavesi
   product_id: 5766
   basket_id: 25333
   created_at: 2015-12-14 17:31:24.020865000 Z
-  updated_at: 2015-12-14 17:31:30.064065000 Z
+  updated_at: 2015-12-14 18:37:10.821457000 Z
 Item_14227:
   id: 23339
-  quantity: 3
-  price: 23.5
+  quantity: 2
+  price: 9.4
   tax: 24.0
   name: kylpyvaahto -setti
   product_id: 5047
   basket_id: 25333
   created_at: 2015-12-14 17:32:49.424462000 Z
-  updated_at: 2015-12-14 17:32:59.613536000 Z
+  updated_at: 2015-12-14 18:37:10.827622000 Z
 Item_14228:
   id: 23340
-  quantity: 1
-  price: 28.0
+  quantity: -1
+  price: 14.0
   tax: 24.0
   name: Age Miracle Ritual-Set
   product_id: 6306
   basket_id: 25333
   created_at: 2015-12-14 17:33:41.124133000 Z
-  updated_at: 2015-12-14 17:33:41.124133000 Z
+  updated_at: 2015-12-14 18:37:10.833800000 Z
 Item_14229:
   id: 23341
-  quantity: 2
-  price: 25.0
+  quantity: 1
+  price: 12.5
   tax: 24.0
   name: Miniparfyymisetti 2
   product_id: 6538
   basket_id: 25333
   created_at: 2015-12-14 17:34:51.326002000 Z
-  updated_at: 2015-12-14 17:34:57.481953000 Z
+  updated_at: 2015-12-14 18:37:10.839978000 Z
 Item_14230:
   id: 23342
-  quantity: 2
-  price: 24.0
+  quantity: 1
+  price: 12.0
   tax: 24.0
   name: Miniparfyymisetti 1
   product_id: 6201
   basket_id: 25333
   created_at: 2015-12-14 17:35:02.942276000 Z
-  updated_at: 2015-12-14 17:35:08.641983000 Z
+  updated_at: 2015-12-14 18:37:10.846267000 Z
+Item_14231:
+  id: 23343
+  quantity: 2
+  price: 6.37
+  tax: 24.0
+  name: Ihoöljy Illan kuningatar
+  product_id: 4114
+  basket_id: 25333
+  created_at: 2015-12-14 17:59:24.175805000 Z
+  updated_at: 2015-12-14 18:37:10.868476000 Z
+Item_14232:
+  id: 23344
+  quantity: 2
+  price: 11.25
+  tax: 24.0
+  name: Hemmotteluöljy
+  product_id: 6158
+  basket_id: 25333
+  created_at: 2015-12-14 18:03:59.892102000 Z
+  updated_at: 2015-12-14 18:37:10.874983000 Z
+Item_14233:
+  id: 23345
+  quantity: 2
+  price: 9.4
+  tax: 24.0
+  name: Ihoöljy Romanttinen ilta
+  product_id: 4997
+  basket_id: 25333
+  created_at: 2015-12-14 18:05:26.254277000 Z
+  updated_at: 2015-12-14 18:37:10.881072000 Z
+Item_14234:
+  id: 23346
+  quantity: 1
+  price: 1.7
+  tax: 24.0
+  name: Kylpysuola Hellivä Syli
+  product_id: 6118
+  basket_id: 25333
+  created_at: 2015-12-14 18:06:32.428391000 Z
+  updated_at: 2015-12-14 18:37:10.887101000 Z
+Item_14235:
+  id: 23347
+  quantity: 2
+  price: 14.5
+  tax: 24.0
+  name: Lahjapakkaus Good Night
+  product_id: 6103
+  basket_id: 25333
+  created_at: 2015-12-14 18:08:24.780668000 Z
+  updated_at: 2015-12-14 18:37:10.893092000 Z
+Item_14236:
+  id: 23348
+  quantity: 1
+  price: 11.25
+  tax: 24.0
+  name: feel beautiful Matkasetti
+  product_id: 327
+  basket_id: 25333
+  created_at: 2015-12-14 18:09:14.534602000 Z
+  updated_at: 2015-12-14 18:37:10.899121000 Z
+Item_14237:
+  id: 23349
+  quantity: 3
+  price: 7.3
+  tax: 24.0
+  name: Luomu Huonespray Valon hohde
+  product_id: 4116
+  basket_id: 25333
+  created_at: 2015-12-14 18:12:00.769137000 Z
+  updated_at: 2015-12-14 18:37:10.905089000 Z
+Item_14238:
+  id: 23350
+  quantity: 2
+  price: 7.3
+  tax: 24.0
+  name: Luomu Huonespray Talvi-ilo
+  product_id: 4115
+  basket_id: 25333
+  created_at: 2015-12-14 18:13:22.068572000 Z
+  updated_at: 2015-12-14 18:37:10.911076000 Z
+Item_14239:
+  id: 23351
+  quantity: 1
+  price: 7.3
+  tax: 24.0
+  name: Luomu Huonespray Vanilja-mandariini
+  product_id: 4105
+  basket_id: 25333
+  created_at: 2015-12-14 18:13:57.505001000 Z
+  updated_at: 2015-12-14 18:37:10.917139000 Z
+Item_14240:
+  id: 23352
+  quantity: 1
+  price: 7.3
+  tax: 24.0
+  name: Luomu Huonespray Aura
+  product_id: 5975
+  basket_id: 25333
+  created_at: 2015-12-14 18:15:10.582368000 Z
+  updated_at: 2015-12-14 18:37:10.923140000 Z
+Item_14241:
+  id: 23353
+  quantity: 1
+  price: 7.3
+  tax: 24.0
+  name: Luomu huonespray Turvallisuuden tunne
+  product_id: 5973
+  basket_id: 25333
+  created_at: 2015-12-14 18:17:35.935448000 Z
+  updated_at: 2015-12-14 18:37:10.929134000 Z
+Item_14242:
+  id: 23354
+  quantity: 1
+  price: 7.3
+  tax: 24.0
+  name: Luomu Huonespray Good night
+  product_id: 5972
+  basket_id: 25333
+  created_at: 2015-12-14 18:17:45.253850000 Z
+  updated_at: 2015-12-14 18:37:10.935104000 Z
+Item_14243:
+  id: 23355
+  quantity: 1
+  price: 16.0
+  tax: 24.0
+  name: Tuoksutikut Sitruunatarha
+  product_id: 5908
+  basket_id: 25333
+  created_at: 2015-12-14 18:31:14.758985000 Z
+  updated_at: 2015-12-14 18:37:10.941089000 Z
+Item_14244:
+  id: 23356
+  quantity: 1
+  price: 9.4
+  tax: 24.0
+  name: Kylpyvaahto Shangri La
+  product_id: 4992
+  basket_id: 25333
+  created_at: 2015-12-14 18:34:33.155871000 Z
+  updated_at: 2015-12-14 18:37:10.947016000 Z
+Item_14245:
+  id: 23357
+  quantity: 1
+  price: 9.4
+  tax: 24.0
+  name: Kylpyvaahto Romanttinen Ilta
+  product_id: 4990
+  basket_id: 25333
+  created_at: 2015-12-14 18:35:29.879546000 Z
+  updated_at: 2015-12-14 18:37:10.952981000 Z
+Item_14246:
+  id: 23358
+  quantity: 1
+  price: 6.37
+  tax: 24.0
+  name: Kylpyvaahto Villiruusu
+  product_id: 4079
+  basket_id: 25333
+  created_at: 2015-12-14 18:36:16.636170000 Z
+  updated_at: 2015-12-14 18:37:10.958930000 Z

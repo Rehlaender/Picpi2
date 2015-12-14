@@ -4470,14 +4470,14 @@ Product_179:
   weight: 0.15
   ean: '7612534043694'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95391
   category_id: 32
   supplier_id: 2
   created_at: 2011-06-26 22:00:00.000000000 Z
-  updated_at: 2015-12-10 12:26:30.806471000 Z
+  updated_at: 2015-12-14 18:37:03.294968000 Z
   summary: Hellävarainen puhdistusemulsio kaikille ihotyypeille - sopii myös herkälle
     ja kuivalle iholle. Poistaa meikin. Mieto, ihana tuoksu!
 Product_180:
@@ -4536,14 +4536,14 @@ Product_181:
   weight: 0.2
   ean: '7612534043670'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95387
   category_id: 32
   supplier_id: 2
   created_at: 2011-06-26 22:00:00.000000000 Z
-  updated_at: 2015-12-07 10:40:51.687321000 Z
+  updated_at: 2015-12-14 18:37:03.637213000 Z
   summary: Ihanan raikastava kasvovesi kaikille ihotyypeille. Desinfioi ja kirkastaa
     epäpuhdasta, rasvaista ja sekaihoa.
 Product_182:
@@ -4603,14 +4603,14 @@ Product_183:
   weight: 0.1
   ean: '7612534043687'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95388
   category_id: 32
   supplier_id: 2
   created_at: 2011-06-26 22:00:00.000000000 Z
-  updated_at: 2015-10-12 15:27:36.935357000 Z
+  updated_at: 2015-12-14 18:37:03.467492000 Z
   summary: Ihana kuorintavoide, joka tekee ihostasi silkinpehmeän! Riisin ja bambun
     hiukkaset kuorivat todella hellästi.
 Product_184:
@@ -4636,14 +4636,14 @@ Product_184:
   weight: 0.15
   ean: '7612534043724'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95396
   category_id: 32
   supplier_id: 2
   created_at: 2011-06-26 22:00:00.000000000 Z
-  updated_at: 2015-12-08 11:15:50.555439000 Z
+  updated_at: 2015-12-14 18:37:02.977171000 Z
   summary: 'Säännöstelee talineritystä ja antaa iholle huolitellun, silkinhimmeän
     mattapinnan. Estää ihosi kiiltelyä ja tuntuu raikkaalta. '
 Product_185:
@@ -4706,14 +4706,14 @@ Product_186:
   weight: 0.1
   ean: '7612534043748'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95395
   category_id: 32
   supplier_id: 2
   created_at: 2011-06-26 22:00:00.000000000 Z
-  updated_at: 2015-04-17 09:23:13.662180000 Z
+  updated_at: 2015-12-14 18:37:02.793114000 Z
   summary: 'Täsmähoitoa ihon epäpuhtauksiin! Tehoseerumi, joka säätelee ihon talineritystä.
     Kirkastaa, tasoittaa ja rauhoittaa. '
 Product_187:
@@ -4740,14 +4740,14 @@ Product_187:
   weight: 0.15
   ean: '7612534043755'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95398
   category_id: 32
   supplier_id: 2
   created_at: 2011-06-26 22:00:00.000000000 Z
-  updated_at: 2015-12-11 13:26:12.726870000 Z
+  updated_at: 2015-12-14 18:37:03.931724000 Z
   summary: Tehokkaasti kosteuttava voide - lisää ihon kollageenintuotantoa. Ihosi
     saa syväkosteutusta ja tuntuu silkinpehmeältä.
 Product_188:
@@ -4808,14 +4808,14 @@ Product_189:
   weight: 0.1
   ean: '7612534043786'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95393
   category_id: 32
   supplier_id: 2
   created_at: 2011-06-26 22:00:00.000000000 Z
-  updated_at: 2015-12-08 11:15:50.398986000 Z
+  updated_at: 2015-12-14 18:37:03.787724000 Z
   summary: Ainutlaatuinen apu kuivalle ja couperosa -iholle. Kevyt kasvonaamio, jota
     voit käyttää myös yövoiteena. Myyntimenestys!
 Product_190:
@@ -4841,14 +4841,14 @@ Product_190:
   weight: 0.15
   ean: '7612534043625'
   tax: 24.0
-  inventory: -1
+  inventory: 1
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95403
   category_id: 32
   supplier_id: 2
   created_at: 2011-06-26 22:00:00.000000000 Z
-  updated_at: 2015-12-14 09:40:44.043664000 Z
+  updated_at: 2015-12-14 18:37:02.483342000 Z
   summary: "Ihana anti age -päivävoide! Kiinteyttää, heleyttää ja rentouttaa ikääntyvää
     ihoa - tunnet itsesi kauniiksi ja säteileväksi!\r\n"
 Product_191:
@@ -4876,14 +4876,14 @@ Product_191:
   weight: 0.1
   ean: '7612534043632'
   tax: 24.0
-  inventory: 3
+  inventory: 4
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95463
   category_id: 32
   supplier_id: 2
   created_at: 2011-06-28 22:00:00.000000000 Z
-  updated_at: 2015-11-17 18:09:15.073558000 Z
+  updated_at: 2015-12-14 18:37:02.165824000 Z
   summary: Tehokas anti-age -tehoseerumi ikääntymisen merkkejä vastaan. Heleyttää
     ja kiinteyttää - saa sinut tuntemaan itsesi virkeämmäksi!
 Product_192:
@@ -4943,14 +4943,14 @@ Product_193:
   weight: 0.15
   ean: '7612534043601'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95401
   category_id: 32
   supplier_id: 2
   created_at: 2011-06-26 22:00:00.000000000 Z
-  updated_at: 2015-12-07 10:40:51.382178000 Z
+  updated_at: 2015-12-14 18:37:02.330871000 Z
   summary: Kevyt, tehokkaasti vaikuttava anti age -yövoide. Aamulla ihosi tuntuu ihmeen
     kiinteytyneeltä ja ihanasti virkistyneeltä!
 Product_194:
@@ -4976,14 +4976,14 @@ Product_194:
   weight: 0.15
   ean: '7612534043809'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95397
   category_id: 32
   supplier_id: 2
   created_at: 2011-06-26 22:00:00.000000000 Z
-  updated_at: 2015-12-08 11:15:50.689338000 Z
+  updated_at: 2015-12-14 18:37:03.144404000 Z
   summary: Herkän ihon päivä- ja yövoide. Rauhoittava vaikutus herkälle ja couperosa
     -iholle on välittömästi havaittavissa.
 Product_195:
@@ -5163,14 +5163,14 @@ Product_200:
   weight: 0.1
   ean: '7612534043977'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95390
   category_id: 32
   supplier_id: 2
   created_at: 2011-06-26 22:00:00.000000000 Z
-  updated_at: 2015-12-08 11:15:51.803795000 Z
+  updated_at: 2015-12-14 18:37:08.797526000 Z
   summary: Kätevä minisetti esim. viikonloppumatkalle tai ihaniin Farfalla -tuotteisiin
     tutustumista varten!
 Product_201:
@@ -5200,14 +5200,14 @@ Product_201:
   weight: 0.15
   ean: '7612534043649'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95402
   category_id: 32
   supplier_id: 2
   created_at: 2011-06-26 22:00:00.000000000 Z
-  updated_at: 2015-12-14 14:15:41.350538000 Z
+  updated_at: 2015-12-14 18:37:04.088559000 Z
   summary: 'Ainutlaatuinen kauneusvoide, saa sinut sädehtimään! Tunnet olosi hyväksi
     ja virkeäksi - näytät upealta! '
 Product_202:
@@ -5397,14 +5397,14 @@ Product_207:
   weight: 0.25
   ean: '7612534050647'
   tax: 24.0
-  inventory: 3
+  inventory: 5
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95423
   category_id: 30
   supplier_id: 2
   created_at: 2011-06-26 22:00:00.000000000 Z
-  updated_at: 2015-12-10 14:59:16.115802000 Z
+  updated_at: 2015-12-14 18:37:05.594332000 Z
   summary: Täydellinen hoitoaine! Myyntimenestys, joka helpottaa kampaamista ja tekee
     hiuksistasi pehmeät ja kauniin kiiltävät.
 Product_208:
@@ -5529,14 +5529,14 @@ Product_211:
   weight: 0.1
   ean: '7612534070157'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95410
   category_id: 34
   supplier_id: 2
   created_at: 2011-06-26 22:00:00.000000000 Z
-  updated_at: 2015-11-10 12:34:25.667670000 Z
+  updated_at: 2015-12-14 18:37:01.205039000 Z
   summary: 'Syvällinen, dynaaminen, hedelmäisen raikas ja aurinkoinen parfyymi. Tuo
     esille olemuksesi kätketyn hymyn! '
 Product_212:
@@ -5561,14 +5561,14 @@ Product_212:
   weight: 0.1
   ean: '7612534070164'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95451
   category_id: 34
   supplier_id: 2
   created_at: 2011-06-26 22:00:00.000000000 Z
-  updated_at: 2015-11-10 12:35:04.768473000 Z
+  updated_at: 2015-12-14 18:37:01.380401000 Z
   summary: " Myyntimenestys. Raikas ja naisellinen parfyymi, joka korostaa kantajan
     vetovoimaa ja charmia. Saat miesten päät kääntymään!"
 Product_213:
@@ -6574,14 +6574,14 @@ Product_244:
   weight: 0.2
   ean: '7612534050661'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95535
   category_id: 30
   supplier_id: 2
   created_at: 2011-10-23 07:32:38.000000000 Z
-  updated_at: 2015-12-10 15:29:12.986869000 Z
+  updated_at: 2015-12-14 18:37:05.761650000 Z
   summary: 'Hittituote! Ravitseva, syvävaikutteinen hoitonaamio. Mahtava hiuksiin
     jätettävä hoitoaine kuiville ja kaksihaaraisille hiuksille. '
 Product_245:
@@ -10828,14 +10828,14 @@ Product_427:
   weight: 0.1
   ean: '7612534032209'
   tax: 24.0
-  inventory: 0
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95547
   category_id: 42
   supplier_id: 2
   created_at: 2011-10-06 22:00:00.000000000 Z
-  updated_at: 2015-12-11 13:26:12.526594000 Z
+  updated_at: 2015-12-14 18:37:06.235807000 Z
   summary: Hieno ihoöljy, joka antaa tyyneyttä ja voimia kiireisen ja joskus stressaavan
     elämänmenon keskelle.
 Product_428:
@@ -10982,14 +10982,14 @@ Product_433:
   weight: 0.1
   ean: '7612534032247'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95552
   category_id: 42
   supplier_id: 2
   created_at: 2011-10-09 22:00:00.000000000 Z
-  updated_at: 2015-12-07 12:07:49.672264000 Z
+  updated_at: 2015-12-14 18:37:06.706236000 Z
   summary: Ihana ihoöljy, joka auttaa elämään rohkeasti, ilolla ja kaikki aistit avoinna
     vastoinkäymistenkin keskellä.
 Product_434:
@@ -11040,14 +11040,14 @@ Product_435:
   weight: 0.1
   ean: '7612534032230'
   tax: 24.0
-  inventory: 0
+  inventory: 1
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: P-95553
   category_id: 42
   supplier_id: 2
   created_at: 2011-10-09 22:00:00.000000000 Z
-  updated_at: 2015-12-07 12:07:49.806590000 Z
+  updated_at: 2015-12-14 18:37:06.848996000 Z
   summary: Hieno luomuöljy, joka auttaa mieltä vapautumaan ja ihoa puhdistumaan. Eroon
     turhautumisesta ja huolista!
 Product_436:
@@ -75070,14 +75070,14 @@ Product_3404:
   weight: 0.1
   ean: '7612534020466'
   tax: 24.0
-  inventory: 0
+  inventory: 1
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 77
   supplier_id: 2
   created_at: 2011-12-01 19:27:08.000000000 Z
-  updated_at: 2015-12-07 12:07:51.021052000 Z
+  updated_at: 2015-12-14 18:37:10.307138000 Z
   summary: ''
 Product_3405:
   id: 4080
@@ -75680,14 +75680,14 @@ Product_3430:
   weight: 0.1
   ean: '7612534100380'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: spvam
   category_id: 36
   supplier_id: 2
   created_at: 2011-12-05 15:53:38.000000000 Z
-  updated_at: 2015-11-17 18:09:15.299814000 Z
+  updated_at: 2015-12-14 18:37:09.257459000 Z
   summary: 'Ilahduttava, lempeän virkistävä ja mieltä huojentava huonetuoksu, joka
     sopii käytettäväksi missä vain! '
 Product_3431:
@@ -75918,14 +75918,14 @@ Product_3438:
   weight: 0.1
   ean: '7612534031387'
   tax: 24.0
-  inventory: 1
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 42
   supplier_id: 2
   created_at: 2011-12-07 16:15:54.000000000 Z
-  updated_at: 2015-09-28 09:27:31.807159000 Z
+  updated_at: 2015-12-14 18:37:08.075241000 Z
   summary: Hurmaavasti tuoksuva, upea luomuöljy! Rentouttaa, ilahduttaa, kohottaa
     tunnelmaa ja mielialaa!
 Product_3439:
@@ -75948,14 +75948,14 @@ Product_3439:
   weight: 0.1
   ean: '7612534100311'
   tax: 24.0
-  inventory: 1
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 36
   supplier_id: 2
   created_at: 2011-12-07 17:18:47.000000000 Z
-  updated_at: 2015-12-08 17:49:19.476145000 Z
+  updated_at: 2015-12-14 18:37:09.111525000 Z
   summary: Runollinen, tunnelmallinen tuoksu luo sydämellistä  juhlatunnelmaa. Sopii
     hyvin jouluun ja talven iloksi!
 Product_3440:
@@ -75979,14 +75979,14 @@ Product_3440:
   weight: 0.1
   ean: '7612534100304'
   tax: 24.0
-  inventory: 0
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 36
   supplier_id: 2
   created_at: 2011-12-07 17:20:33.000000000 Z
-  updated_at: 2015-12-08 17:49:19.656013000 Z
+  updated_at: 2015-12-14 18:37:08.952813000 Z
   summary: Ihaniin hetkiin kynttilöiden loisteessa ja hyvässä seurassa. Lempeä ja
     valoisa huonespray, joka luo tunnelmaa!
 Product_3441:
@@ -83508,14 +83508,14 @@ Product_3784:
   weight: 0.1
   ean: '7612534045247'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 31
   supplier_id: 2
   created_at: 2012-04-20 14:38:48.000000000 Z
-  updated_at: 2015-08-13 11:18:49.192624000 Z
+  updated_at: 2015-12-14 18:36:59.040944000 Z
   summary: Silottava, selluliittia tehokkaasti ehkäisevä vartalogeeli. Todella nimensä
     veroinen täsmätuote! Ihosta tulee sileä ja raikas!
 Product_3785:
@@ -83582,7 +83582,7 @@ Product_3786:
   category_id: 31
   supplier_id: 2
   created_at: 2012-04-20 14:43:35.000000000 Z
-  updated_at: 2015-12-08 11:15:50.958996000 Z
+  updated_at: 2015-12-14 18:36:58.871335000 Z
   summary: Tehokkaasti kiinteyttävä, pirskahtelevan raikas suihkugeeli. Energisoi,
     virkistää ja tukee aineenvaihduntaa. Ihana   tuoksu!
 Product_3787:
@@ -83608,14 +83608,14 @@ Product_3787:
   weight: 0.1
   ean: '7612534045223'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 31
   supplier_id: 2
   created_at: 2012-04-20 14:44:54.000000000 Z
-  updated_at: 2015-12-14 14:15:41.169386000 Z
+  updated_at: 2015-12-14 18:36:58.698254000 Z
   summary: Ihanan tuoksuinen kuorintavoide vartalolle! Sokerin kristallihiukkaset
     kuorivat hellästi. Ihosi tuntuu sileältä ja näyttää hyvältä!
 Product_3788:
@@ -84026,14 +84026,14 @@ Product_3800:
   weight: 0.1
   ean: '7612534045094'
   tax: 24.0
-  inventory: 2
+  inventory: 1
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 31
   supplier_id: 2
   created_at: 2012-04-20 15:18:47.000000000 Z
-  updated_at: 2015-12-10 14:59:16.290670000 Z
+  updated_at: 2015-12-14 18:36:59.333041000 Z
   summary: Täydellinen kuivan ihon hoitoon - ravitsee tehokkaasti, tuoksuu hurmaavasti.
     Purkillinen sametinpehmeyttä ja hyvää tuulta!
 Product_3801:
@@ -84121,14 +84121,14 @@ Product_3803:
   weight: 0.1
   ean: '7612534045186'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 31
   supplier_id: 2
   created_at: 2012-04-20 15:23:55.000000000 Z
-  updated_at: 2015-11-23 15:50:18.967544000 Z
+  updated_at: 2015-12-14 18:36:59.676077000 Z
   summary: Tehokas, tuoksuton luomudeodorantti herkälle iholle. Miellyttävä, silkkinen
     koostumus. Erittäin hellävarainen!
 Product_3804:
@@ -84152,14 +84152,14 @@ Product_3804:
   weight: 0.1
   ean: '7612534045209'
   tax: 24.0
-  inventory: 4
+  inventory: 5
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 31
   supplier_id: 2
   created_at: 2012-04-20 15:25:52.000000000 Z
-  updated_at: 2015-12-04 12:25:47.763859000 Z
+  updated_at: 2015-12-14 18:36:59.509046000 Z
   summary: Täysin tuoksuton, hellävarainen käsivoide herkälle iholle. Tehokkaasti
     ravitseva voide, joka on kuin samettia käsillesi!
 Product_3805:
@@ -93643,14 +93643,14 @@ Product_4232:
   weight: 0.1
   ean: '7612534020459'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 77
   supplier_id: 2
   created_at: 2012-11-23 13:22:00.000000000 Z
-  updated_at: 2015-10-06 14:40:07.590807000 Z
+  updated_at: 2015-12-14 18:37:10.157845000 Z
   summary: ''
 Product_4233:
   id: 4991
@@ -93712,14 +93712,14 @@ Product_4234:
   weight: 0.1
   ean: '7612534020435'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 77
   supplier_id: 2
   created_at: 2012-11-23 15:14:57.000000000 Z
-  updated_at: 2014-12-20 09:23:01.553108000 Z
+  updated_at: 2015-12-14 18:37:10.006116000 Z
   summary: ''
 Product_4235:
   id: 4993
@@ -93779,14 +93779,14 @@ Product_4236:
   weight: 0.1
   ean: '7612534030588'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 42
   supplier_id: 2
   created_at: 2012-11-23 16:38:20.000000000 Z
-  updated_at: 2015-12-03 11:12:56.924101000 Z
+  updated_at: 2015-12-14 18:37:00.870725000 Z
   summary: 'Ravitseva ja uudistava luomuöljy iholle ja hiuksille.   Anti age -vaikutus
     - silottaa ihoa! Erinomainen hierontaöljy. '
 Product_4237:
@@ -93877,14 +93877,14 @@ Product_4239:
   weight: 0.1
   ean: '7612534031394'
   tax: 24.0
-  inventory: 1
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 42
   supplier_id: 2
   created_at: 2012-11-23 16:52:04.000000000 Z
-  updated_at: 2015-11-05 09:44:33.147871000 Z
+  updated_at: 2015-12-14 18:37:08.367767000 Z
   summary: Lumoava, aistillinen, ilahduttava ihoöljy. Tuoksussa mm. luomulaatuisia
     ylang ylangia ja mandariinia!
 Product_4240:
@@ -95038,14 +95038,14 @@ Product_4287:
   weight: 0.1
   ean: '7612534281188'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 79
   supplier_id: 2
   created_at: 2012-12-11 09:22:03.000000000 Z
-  updated_at: 2015-11-10 19:42:20.391206000 Z
+  updated_at: 2015-12-14 18:36:58.221556000 Z
   summary: Ihastuttava, valmis lahjapakkaus, jossa *daily pleasure* -sarjan raikkaat
     ja miedontuoksuiset kosteusvoide ja suihkuvoide!
 Product_4288:
@@ -95064,14 +95064,14 @@ Product_4288:
   weight: 0.1
   ean: '7612534020206'
   tax: 24.0
-  inventory: 1
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 77
   supplier_id: 2
   created_at: 2012-12-11 16:16:40.000000000 Z
-  updated_at: 2015-01-10 10:26:35.257876000 Z
+  updated_at: 2015-12-14 18:37:07.489543000 Z
   summary: ''
 Product_4289:
   id: 5048
@@ -100591,14 +100591,14 @@ Product_4526:
   weight: 0.15
   ean: '7612534046176'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 32
   supplier_id: 2
   created_at: 2013-06-10 09:07:44.000000000 Z
-  updated_at: 2015-11-10 11:18:11.763224000 Z
+  updated_at: 2015-12-14 18:37:02.650478000 Z
   summary: 'Hoitava ja tehokkaasti kosteuttava anti age -voide. Tekee ihosta silkinpehmeän
     ja hoitaa tehokkaasti ikääntyvää ihoa. '
 Product_4527:
@@ -100623,14 +100623,14 @@ Product_4527:
   weight: 0.1
   ean: '7612534046039'
   tax: 24.0
-  inventory: 1
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 40
   supplier_id: 2
   created_at: 2013-06-10 09:13:39.000000000 Z
-  updated_at: 2015-12-11 10:13:23.100466000 Z
+  updated_at: 2015-12-14 18:36:58.522943000 Z
   summary: "Huipputuote! Tehokas, mieto ja raikas luomu deo roll on miehelle. 24h
     deodoroiva, kuivuu hetkessä!\r\n"
 Product_4528:
@@ -101166,14 +101166,14 @@ Product_4550:
   weight: 0.1
   ean: '7612534046169'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 32
   supplier_id: 2
   created_at: 2013-06-27 11:41:44.000000000 Z
-  updated_at: 2015-12-08 17:48:48.700273000 Z
+  updated_at: 2015-12-14 18:37:01.990949000 Z
   summary: Tehokkaasti ravitseva, ryppyjä vähentävä anti age -silmänympärysvoide.
     Juonteet silmän ympärillä siliävät - katseesi kirkastuu!
 Product_4551:
@@ -101719,14 +101719,14 @@ Product_4572:
   weight: 0.1
   ean: '7612534030656'
   tax: 24.0
-  inventory: 0
+  inventory: 1
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 42
   supplier_id: 2
   created_at: 2013-07-19 13:42:37.000000000 Z
-  updated_at: 2015-10-24 11:43:16.933321000 Z
+  updated_at: 2015-12-14 18:37:00.686946000 Z
   summary: 'Ajatonta kauneutta! Ihana, tehokkaasti uudistava anti age -kasvoöljy kuivan
     ja aikuisen ihon hoitoon.  '
 Product_4573:
@@ -101752,14 +101752,14 @@ Product_4573:
   weight: 0.1
   ean: '7612534030601'
   tax: 24.0
-  inventory: 0
+  inventory: 1
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 42
   supplier_id: 2
   created_at: 2013-07-19 13:50:01.000000000 Z
-  updated_at: 2015-12-10 11:50:21.412348000 Z
+  updated_at: 2015-12-14 18:37:00.511623000 Z
   summary: 'Luomulaatuista helokkiöljyä suositellaan erityisesti ihon ja päänahan
     ongelmien hoitoon ja tasapainottamiseen. '
 Product_4574:
@@ -101914,14 +101914,14 @@ Product_4578:
   weight: 0.1
   ean: '7612534030533'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: F-10225
   category_id: 42
   supplier_id: 2
   created_at: 2013-07-19 14:04:45.000000000 Z
-  updated_at: 2015-06-11 11:22:09.692634000 Z
+  updated_at: 2015-12-14 18:37:00.357899000 Z
   summary: 'Ravitseva, hoitava, vahvistava ja suojaava öljy. Sopii erityisen hyvin
     herkän ja kuivan ihon hoitoon sekä vauvoille. '
 Product_4579:
@@ -102416,14 +102416,14 @@ Product_4600:
   weight: 0.1
   ean: '7612534032216'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: F-10222
   category_id: 42
   supplier_id: 2
   created_at: 2013-08-27 10:24:57.000000000 Z
-  updated_at: 2015-12-07 12:07:49.346933000 Z
+  updated_at: 2015-12-14 18:37:06.553415000 Z
   summary: Ihana, ilahduttava ihoöljy! Huojentaa oloa, auttaa rentoutumaan ja rauhoittaa
     levotonta mieltä.
 Product_4601:
@@ -104090,14 +104090,14 @@ Product_4675:
   weight: 0.1
   ean: '7612534032254'
   tax: 24.0
-  inventory: 1
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 42
   supplier_id: 2
   created_at: 2013-09-30 08:50:31.000000000 Z
-  updated_at: 2015-12-10 15:21:40.317729000 Z
+  updated_at: 2015-12-14 18:37:06.388685000 Z
   summary: Ihana, korkealaatuinen luomuöljy! Tuo tyyneyttä ja malttia! Vahvistaa sisäistä
     tasapainoa, lisää luovuutta.
 Product_4676:
@@ -110271,14 +110271,14 @@ Product_4948:
   weight: 0.15
   ean: '7612534060332'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 79
   supplier_id: 2
   created_at: 2013-12-20 11:48:43.000000000 Z
-  updated_at: 2015-12-02 13:22:15.082426000 Z
+  updated_at: 2015-12-14 18:37:07.338963000 Z
   summary: ''
 Product_4949:
   id: 5767
@@ -110732,14 +110732,14 @@ Product_4968:
   weight: 0.1
   ean: '7612534019309'
   tax: 24.0
-  inventory: 2
+  inventory: 1
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 76
   supplier_id: 2
   created_at: 2014-02-10 15:33:46.881503000 Z
-  updated_at: 2015-05-23 14:17:25.854028000 Z
+  updated_at: 2015-12-14 18:37:01.823861000 Z
   summary: ''
 Product_4969:
   id: 5789
@@ -112658,14 +112658,14 @@ Product_5045:
   weight: 0.1
   ean: '7612534030625'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 42
   supplier_id: 2
   created_at: 2014-05-17 09:53:16.178989000 Z
-  updated_at: 2015-12-09 16:38:11.942740000 Z
+  updated_at: 2015-12-14 18:37:00.194128000 Z
   summary: 'Todella  tehokkaasti kosteuttava ihoöljy.  Erinomainen herkän ja kuivan
     ihon ja päänahan hoitoon! '
 Product_5046:
@@ -113190,14 +113190,14 @@ Product_5066:
   weight: 0.1
   ean: '7612534090179'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 31
   supplier_id: 2
   created_at: 2014-05-26 09:15:52.728807000 Z
-  updated_at: 2015-12-10 14:59:16.473781000 Z
+  updated_at: 2015-12-14 18:37:05.937200000 Z
   summary: Virkistäydy sivelemällä raikasta geeliä jalkoihisin ja sääriisi, nosta
     jalat ylös ja nauti hyvin ansaitusta levosta!
 Product_5067:
@@ -113801,14 +113801,14 @@ Product_5088:
   weight: 0.4
   ean: '7612534170116'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 65
   supplier_id: 2
   created_at: 2014-06-03 11:33:50.839322000 Z
-  updated_at: 2015-11-21 11:09:51.931611000 Z
+  updated_at: 2015-12-14 18:37:09.872600000 Z
   summary: 'Farfallan Sitruunatarha on raikas, aurinkoinen, luomulaatuinen huonetuoksu,
     joka puhdistaa ilmaa ja kohottaa mielialaa. '
 Product_5089:
@@ -115391,14 +115391,14 @@ Product_5152:
   weight: 0.1
   ean: '7612534100328'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 36
   supplier_id: 2
   created_at: 2014-06-13 08:52:24.448601000 Z
-  updated_at: 2015-12-07 12:07:51.453951000 Z
+  updated_at: 2015-12-14 18:37:09.734516000 Z
   summary: Hyväntuoksuinen, raikas, rentouttava huonespray auttaa rauhoittumaan ja
     nukkumaan hyvät yöunet.
 Product_5153:
@@ -115423,14 +115423,14 @@ Product_5153:
   weight: 0.1
   ean: '7612534100366'
   tax: 24.0
-  inventory: 0
+  inventory: 1
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 36
   supplier_id: 2
   created_at: 2014-06-13 10:50:16.189818000 Z
-  updated_at: 2015-12-05 13:32:19.858012000 Z
+  updated_at: 2015-12-14 18:37:09.567273000 Z
   summary: Lämmin, pehmeä ja hedelmäinen tuoksu tuo huoneeseen lempeän ilmapiirin
     - kaikilla on hyvä olla!
 Product_5154:
@@ -115481,14 +115481,14 @@ Product_5155:
   weight: 0.1
   ean: '7612534100342'
   tax: 24.0
-  inventory: 0
+  inventory: 1
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 36
   supplier_id: 2
   created_at: 2014-07-03 08:59:06.771567000 Z
-  updated_at: 2015-12-08 10:28:53.073787000 Z
+  updated_at: 2015-12-14 18:37:09.420758000 Z
   summary: 'Raikas, virkistävä, yrttinen huonetuoksu, joka suojaa, tuo selkeyttä ja
     puhdistaa ympäröivän tilan. '
 Product_5156:
@@ -116434,14 +116434,14 @@ Product_5195:
   weight: 0.15
   ean: '7612534060400'
   tax: 24.0
-  inventory: 2
+  inventory: 1
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 79
   supplier_id: 2
   created_at: 2014-09-26 09:22:35.282902000 Z
-  updated_at: 2015-12-02 13:22:14.915275000 Z
+  updated_at: 2015-12-14 18:37:07.180553000 Z
   summary: Ihanantuoksuinen, mieto kukkaisvesi hoitaa ja elvyttää ihoa ja hiuspohjaa.
     Kokeile myös virkistävänä, ilahduttavana suihkeena!
 Product_5196:
@@ -117598,14 +117598,14 @@ Product_5245:
   weight: 0.15
   ean: '7612534060431'
   tax: 24.0
-  inventory: 2
+  inventory: 1
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 79
   supplier_id: 2
   created_at: 2014-10-29 13:28:23.828374000 Z
-  updated_at: 2015-12-10 14:59:15.799180000 Z
+  updated_at: 2015-12-14 18:37:07.013028000 Z
   summary: Mieto, raikas piparminttuvesi elvyttää ja virkistää ihanasti ja kirkastaa
     ihoa. Viilentää helteessä, apu esim. kuumiin aaltoihin!
 Product_5246:
@@ -118418,14 +118418,14 @@ Product_5283:
   weight: 0.1
   ean: '7612534281157'
   tax: 24.0
-  inventory: 3
+  inventory: 5
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 79
   supplier_id: 2
   created_at: 2014-11-19 15:36:20.431244000 Z
-  updated_at: 2015-11-10 19:54:27.928096000 Z
+  updated_at: 2015-12-14 18:37:08.671840000 Z
   summary: Virkistävään lepoon! Ihastuttava lahjapakkaus, joka sisältää Good Night
     -aromasprayn, -eteerisen öljyseoksen ja tuoksukiven.
 Product_5284:
@@ -118453,13 +118453,13 @@ Product_5284:
   weight: 0.1
   ean: '7612534281119'
   tax: 24.0
-  inventory: 3
+  inventory: 4
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 79
   created_at: 2014-11-19 15:46:02.690309000 Z
-  updated_at: 2015-11-29 10:50:16.630737000 Z
+  updated_at: 2015-12-14 18:36:59.199399000 Z
   summary: Hurmaavat, hemmottelevat kylpysuolat Onnenkylpy ja Hellivä syli ihanassa
     lahjapakkauksessa.
 Product_5285:
@@ -118512,14 +118512,14 @@ Product_5286:
   weight: 0.1
   ean: '7612534281126'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 79
   supplier_id: 2
   created_at: 2014-11-19 16:53:57.505910000 Z
-  updated_at: 2015-12-02 13:22:14.089261000 Z
+  updated_at: 2015-12-14 18:36:58.372506000 Z
   summary: Luomua tyylikkäässä paketissa! Onnistunut lahja jokaiselle luomutuotteita
     arvostavalle miehelle.
 Product_5287:
@@ -118811,14 +118811,14 @@ Product_5298:
   weight: 0.1
   ean: '7612534022163'
   tax: 24.0
-  inventory: 9
+  inventory: 10
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 79
   supplier_id: 2
   created_at: 2014-12-01 14:05:36.241029000 Z
-  updated_at: 2015-12-13 11:44:34.439319000 Z
+  updated_at: 2015-12-14 18:37:08.518151000 Z
   summary: Rentouttava, lempeä ja huojentava kukkaiskylpy.
 Product_5299:
   id: 6119
@@ -119235,14 +119235,14 @@ Product_5315:
   weight: 0.1
   ean: '7612534030694'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 42
   supplier_id: 2
   created_at: 2014-12-10 07:58:44.756139000 Z
-  updated_at: 2015-07-25 11:32:09.221637000 Z
+  updated_at: 2015-12-14 18:37:00.010298000 Z
   summary: Inkapähkinäöljy (Sacha Inchi) on hitti maailmalta ja oikea aarre öljyjen
     joukossa. Upea, monipuolinen hoitoöljy!
 Product_5316:
@@ -119330,14 +119330,14 @@ Product_5319:
   weight: 0.1
   ean: '7612534281140'
   tax: 24.0
-  inventory: 2
+  inventory: 5
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 79
   supplier_id: 2
   created_at: 2014-12-11 11:20:29.801446000 Z
-  updated_at: 2015-12-03 11:12:57.927647000 Z
+  updated_at: 2015-12-14 18:36:57.892387000 Z
   summary: 'Toivelahja hemmotteluun ja rentoutumiseen! Ihana lahjasetti, jossa taivaallisen
     rentouttavat Hemmotteluöljy ja Kylpysuola Hellivä syli! '
 Product_5320:
@@ -119360,14 +119360,14 @@ Product_5320:
   weight: 0.1
   ean: '7612534281133'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 79
   supplier_id: 2
   created_at: 2014-12-11 11:23:59.483088000 Z
-  updated_at: 2015-12-03 11:12:57.743785000 Z
+  updated_at: 2015-12-14 18:36:58.063431000 Z
   summary: Sisältää yhden Farfallan todellisista tähtituotteista, tuhkimovoide Bliss
     Creamin, ja hurmaavan Onnenkylpy -kylpysuolan!
 Product_5321:
@@ -119746,14 +119746,14 @@ Product_5338:
   weight: 0.1
   ean: '7612534031363'
   tax: 24.0
-  inventory: 1
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 42
   supplier_id: 2
   created_at: 2014-12-11 13:53:25.042584000 Z
-  updated_at: 2015-12-03 11:12:57.585014000 Z
+  updated_at: 2015-12-14 18:37:08.220525000 Z
   summary: Ihanan rentouttava, suloisesti tuoksuva Hemmotteluöljy ilahduttaa ja auttaa
     palautumaan päivän haasteista!
 Product_5339:
@@ -120627,14 +120627,14 @@ Product_5381:
   weight: 0.1
   ean: '7612534281201'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 34
   supplier_id: 2
   created_at: 2014-12-13 07:32:31.975307000 Z
-  updated_at: 2015-12-10 13:25:58.848023000 Z
+  updated_at: 2015-12-14 18:37:07.919371000 Z
   summary: ''
 Product_5382:
   id: 6202
@@ -122242,14 +122242,14 @@ Product_5456:
   weight: 0.1
   ean: '7612534019118'
   tax: 24.0
-  inventory: 1
+  inventory: 0
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 76
   supplier_id: 2
   created_at: 2015-04-10 12:17:51.854823000 Z
-  updated_at: 2015-11-03 10:04:20.703009000 Z
+  updated_at: 2015-12-14 18:37:01.681801000 Z
   summary: ''
 Product_5457:
   id: 6277
@@ -122275,14 +122275,14 @@ Product_5457:
   weight: 0.1
   ean: '7612534030670'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 42
   supplier_id: 2
   created_at: 2015-04-11 11:20:50.203464000 Z
-  updated_at: 2015-12-07 10:40:50.473712000 Z
+  updated_at: 2015-12-14 18:36:59.843195000 Z
   summary: "Raikas ja monipuolisesti hoitava ihoöljy kasvoille ja vartalolle. Tehokkaasti
     kosteuttava ja sidekudosta vahvistava.\r\n"
 Product_5458:
@@ -122880,14 +122880,14 @@ Product_5486:
   weight: 0.1
   ean: '7612534281256'
   tax: 24.0
-  inventory: 2
+  inventory: 1
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 32
   supplier_id: 2
   created_at: 2015-07-02 13:23:31.128601000 Z
-  updated_at: 2015-11-10 11:18:11.963732000 Z
+  updated_at: 2015-12-14 18:37:07.651651000 Z
   summary: ''
 Product_5487:
   id: 6307
@@ -123054,14 +123054,14 @@ Product_5493:
   weight: 0.1
   ean: '7612534050616'
   tax: 24.0
-  inventory: 2
+  inventory: 1
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 30
   supplier_id: 2
   created_at: 2015-08-05 08:33:31.801409000 Z
-  updated_at: 2015-12-09 14:35:53.518522000 Z
+  updated_at: 2015-12-14 18:37:04.399826000 Z
   summary: 'Lempeä, ihanan tuoksuinen shampoo herkkäihoisille ja lapsille. Ruusun
     ja iiriksen uutteet rauhoittavat herkkää päänahkaa. '
 Product_5494:
@@ -123087,14 +123087,14 @@ Product_5494:
   weight: 0.1
   ean: '7612534050623'
   tax: 24.0
-  inventory: 1
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 30
   supplier_id: 2
   created_at: 2015-08-05 08:35:42.205329000 Z
-  updated_at: 2015-12-08 17:49:28.237802000 Z
+  updated_at: 2015-12-14 18:37:04.556624000 Z
   summary: 'Runsautta ja kiiltoa hennoille hiuksille. Silminnähden tuuheammat hiuksesi
     tuoksuvat ihanille frangipanin kukille! '
 Product_5495:
@@ -123120,14 +123120,14 @@ Product_5495:
   weight: 0.1
   ean: '7612534050609'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 30
   supplier_id: 2
   created_at: 2015-08-05 08:40:29.880735000 Z
-  updated_at: 2015-12-07 16:35:08.474080000 Z
+  updated_at: 2015-12-14 18:37:04.740605000 Z
   summary: Ravitseva shampoo, joka palauttaa kuiville ja hauraille hiuksille niiden
     elastisuuden. Hiuksesi säihkyvät luonnollista kauneutta.
 Product_5496:
@@ -123152,14 +123152,14 @@ Product_5496:
   weight: 0.1
   ean: '7612534050586'
   tax: 24.0
-  inventory: 2
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 30
   supplier_id: 2
   created_at: 2015-08-05 08:44:37.510276000 Z
-  updated_at: 2015-12-04 12:25:48.151436000 Z
+  updated_at: 2015-12-14 18:37:04.899794000 Z
   summary: Suojaa hiusta värjäyksen aiheuttamalta kuormitukselta. Väri pysyy kauniina,
     hiuksesi ovat sileät ja saavat hienon silkinkiillon.
 Product_5497:
@@ -123185,14 +123185,14 @@ Product_5497:
   weight: 0.1
   ean: '7612534050579'
   tax: 24.0
-  inventory: 2
+  inventory: 1
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 30
   supplier_id: 2
   created_at: 2015-08-05 08:45:42.661471000 Z
-  updated_at: 2015-11-16 09:26:07.379594000 Z
+  updated_at: 2015-12-14 18:37:05.433449000 Z
   summary: 'Tehokas apu kuivalle, hilseilevälle ja kutiavalle päänahalle. Hiuksesi
     ovat kauniit ja olemuksesi huoliteltu. '
 Product_5498:
@@ -123219,14 +123219,14 @@ Product_5498:
   weight: 0.1
   ean: '7612534050593'
   tax: 24.0
-  inventory: 3
+  inventory: 4
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 30
   supplier_id: 2
   created_at: 2015-08-05 09:06:26.234351000 Z
-  updated_at: 2015-12-07 10:40:52.886779000 Z
+  updated_at: 2015-12-14 18:37:04.249457000 Z
   summary: Shampoo normaaleille hiuksille ja usein toistuvaan pesuun. Palkittu huipputuote
     ja yksi Farfallan myyntihiteistä!
 Product_5499:
@@ -125207,14 +125207,14 @@ Product_5593:
   weight: 0.1
   ean: '7612534032278'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 1
   supplier_id: 2
   created_at: 2015-10-10 09:55:14.460365000 Z
-  updated_at: 2015-11-12 16:25:26.661567000 Z
+  updated_at: 2015-12-14 18:37:06.095971000 Z
   summary: Setti Farfallan upeita jalokiviöljyjä. Seitsemän erilaista fantastista,
     miedosti tuoksuvaa ihoöljyä! Hyvä lahjaidea!
 Product_5594:
@@ -125962,14 +125962,14 @@ Product_5625:
   weight: 0.1
   ean: '7612534070522'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 34
   supplier_id: 2
   created_at: 2015-11-06 11:55:00.554697000 Z
-  updated_at: 2015-11-16 20:31:12.982625000 Z
+  updated_at: 2015-12-14 18:37:01.054491000 Z
   summary: Naisellinen, upean sensuelli kukkaistuoksu. Upea parfyymi kaikkein hienoimmista
     ja kallisarvoisimmista kukkaistuoksuista.
 Product_5626:
@@ -127547,14 +127547,14 @@ Product_5698:
   weight: 0.1
   ean: '7612534019125'
   tax: 24.0
-  inventory: 1
+  inventory: 3
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 76
   supplier_id: 2
   created_at: 2015-12-02 11:15:09.962384000 Z
-  updated_at: 2015-12-02 11:20:53.052656000 Z
+  updated_at: 2015-12-14 18:37:01.530821000 Z
   summary: ''
 Product_5699:
   id: 6519
@@ -127999,14 +127999,14 @@ Product_5718:
   weight: 0.1
   ean: '7612534281102'
   tax: 24.0
-  inventory: 1
+  inventory: 2
   stock_level: 0
   properties: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   scode: ''
   category_id: 1
   supplier_id: 2
   created_at: 2015-12-10 12:52:22.259584000 Z
-  updated_at: 2015-12-10 12:53:57.101653000 Z
+  updated_at: 2015-12-14 18:37:07.798646000 Z
   summary: ''
 Product_5719:
   id: 6539

@@ -70555,10 +70555,13 @@ Basket_8132:
   updated_at: 2015-12-14 14:40:37.425181000 Z
 Basket_8133:
   id: 25333
-  total_price: !ruby/object:BigDecimal 36:0.38726E4
-  total_tax: !ruby/object:BigDecimal 36:0.74954E3
+  kori_id: 743
+  kori_type: Purchase
+  total_price: !ruby/object:BigDecimal 36:0.98635E3
+  total_tax: !ruby/object:BigDecimal 36:0.19091E3
+  locked: 2015-12-14
   created_at: 2015-12-14 14:59:11.657176000 Z
-  updated_at: 2015-12-14 17:35:08.648527000 Z
+  updated_at: 2015-12-14 18:37:10.964265000 Z
 Basket_8134:
   id: 25334
   kori_id: 22355
@@ -70568,3 +70571,10 @@ Basket_8134:
   locked: 2015-12-14
   created_at: 2015-12-14 16:51:40.492417000 Z
   updated_at: 2015-12-14 16:53:24.114768000 Z
+Basket_8135:
+  id: 25335
+  kori_type: Order
+  total_price: !ruby/object:BigDecimal 27:0.0
+  total_tax: !ruby/object:BigDecimal 27:0.0
+  created_at: 2015-12-14 18:02:09.166223000 Z
+  updated_at: 2015-12-14 18:02:09.166223000 Z
