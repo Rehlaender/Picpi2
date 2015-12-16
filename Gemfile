@@ -15,8 +15,8 @@ gem "office_clerk", github: "rubyclerks/office_clerk"
 gem 'db_fixtures_dump'  , github: "dancinglightning/db_fixtures_dump" #backup
 
 gem 'sqlite3'
-gem "rails" ,  "4.1.8"
-gem 'rails-i18n', '~> 4.0.0'
+gem "rails"
+gem 'rails-i18n'
 
 #one wishes one would not need it. alas . . .
 gem 'rack-attack'
@@ -35,8 +35,8 @@ end
 
 group  :production do
   gem "therubyracer"
-  gem "libv8" , "3.16.14.3"
-  gem 'uglifier', '>= 1.3.0'
+  gem "libv8"
+  gem 'uglifier'
   gem "lograge"
   gem "newrelic_rpm"
   gem "mysql2" , "~> 0.3.13"

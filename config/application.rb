@@ -34,6 +34,6 @@ module SalesClerk
     config.middleware.use Rack::Attack
 
     config.i18n.default_locale = ENV["KAUPPA_ID"].to_s.include?("12603339") ? :fi : :en
-
+    config.active_record.raise_in_transactional_callbacks = true
   end
 end
