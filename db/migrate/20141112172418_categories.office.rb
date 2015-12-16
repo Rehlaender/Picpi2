@@ -12,7 +12,7 @@ class Categories < ActiveRecord::Migration
       t.attachment  :main_picture
       t.attachment  :extra_picture
 
-      t.timestamps
+      t.timestamps :null => false
     end
     add_index :categories, :link,                :unique => true
 

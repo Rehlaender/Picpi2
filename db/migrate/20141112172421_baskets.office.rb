@@ -7,7 +7,7 @@ class Baskets < ActiveRecord::Migration
       t.decimal     :total_price , :default => 0.0 , precision: 10, scale: 4
       t.decimal     :total_tax ,   :default => 0.0 , precision: 10, scale: 4
       t.date        :locked
-      t.timestamps
+      t.timestamps :null => false
     end
   end
 end

@@ -13,17 +13,17 @@
 
 ActiveRecord::Schema.define(version: 20141112172423) do
 
-  create_table "baskets", force: true do |t|
+  create_table "baskets", force: :cascade do |t|
     t.integer  "kori_id"
     t.string   "kori_type"
-    t.decimal  "total_price", precision: 10, scale: 4, default: 0
-    t.decimal  "total_tax",   precision: 10, scale: 4, default: 0
+    t.decimal  "total_price", precision: 10, scale: 4, default: 0.0
+    t.decimal  "total_tax",   precision: 10, scale: 4, default: 0.0
     t.date     "locked"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                                         null: false
+    t.datetime "updated_at",                                         null: false
   end
 
-  create_table "categories", force: true do |t|
+  create_table "categories", force: :cascade do |t|
     t.integer  "category_id"
     t.boolean  "online",                     default: false
     t.string   "name"
@@ -39,38 +39,38 @@ ActiveRecord::Schema.define(version: 20141112172423) do
     t.string   "extra_picture_content_type"
     t.integer  "extra_picture_file_size"
     t.datetime "extra_picture_updated_at"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                                 null: false
+    t.datetime "updated_at",                                 null: false
   end
 
-  add_index "categories", ["link"], name: "index_categories_on_link", unique: true, using: :btree
+  add_index "categories", ["link"], name: "index_categories_on_link", unique: true
 
-  create_table "clerks", force: true do |t|
+  create_table "clerks", force: :cascade do |t|
     t.string   "email",              default: "",    null: false
     t.boolean  "admin",              default: false
     t.string   "encrypted_password"
     t.string   "password_salt"
     t.string   "address"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                         null: false
+    t.datetime "updated_at",                         null: false
   end
 
-  add_index "clerks", ["email"], name: "index_clerks_on_email", unique: true, using: :btree
+  add_index "clerks", ["email"], name: "index_clerks_on_email", unique: true
 
-  create_table "items", force: true do |t|
-    t.integer  "quantity",              default: 1
-    t.float    "price",      limit: 24, default: 0.0
-    t.float    "tax",        limit: 24, default: 0.0
+  create_table "items", force: :cascade do |t|
+    t.integer  "quantity",   default: 1
+    t.float    "price",      default: 0.0
+    t.float    "tax",        default: 0.0
     t.string   "name"
     t.integer  "product_id"
     t.integer  "basket_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
   end
 
-  create_table "orders", force: true do |t|
+  create_table "orders", force: :cascade do |t|
     t.string   "number"
-    t.string   "note",                      default: ""
+    t.string   "note",           default: ""
     t.string   "email"
     t.date     "ordered_on"
     t.date     "paid_on"
@@ -80,16 +80,16 @@ ActiveRecord::Schema.define(version: 20141112172423) do
     t.string   "payment_info"
     t.string   "shipment_type"
     t.string   "shipment_info"
-    t.float    "shipment_price", limit: 24, default: 0.0
-    t.float    "shipment_tax",   limit: 24, default: 0.0
+    t.float    "shipment_price", default: 0.0
+    t.float    "shipment_tax",   default: 0.0
     t.string   "address"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                   null: false
+    t.datetime "updated_at",                   null: false
   end
 
-  create_table "products", force: true do |t|
-    t.float    "price",                      limit: 24,                 null: false
-    t.string   "name",                                                  null: false
+  create_table "products", force: :cascade do |t|
+    t.float    "price",                                      null: false
+    t.string   "name",                                       null: false
     t.string   "link"
     t.text     "description"
     t.text     "summary"
@@ -101,41 +101,41 @@ ActiveRecord::Schema.define(version: 20141112172423) do
     t.string   "extra_picture_content_type"
     t.integer  "extra_picture_file_size"
     t.datetime "extra_picture_updated_at"
-    t.boolean  "online",                                default: false
-    t.float    "cost",                       limit: 24, default: 0.0
-    t.float    "weight",                     limit: 24, default: 0.1
-    t.string   "ean",                                   default: ""
-    t.float    "tax",                        limit: 24, default: 0.0
-    t.integer  "inventory",                             default: 0
-    t.integer  "stock_level",                           default: 0
-    t.string   "properties",                            default: ""
-    t.string   "scode",                                 default: ""
+    t.boolean  "online",                     default: false
+    t.float    "cost",                       default: 0.0
+    t.float    "weight",                     default: 0.1
+    t.string   "ean",                        default: ""
+    t.float    "tax",                        default: 0.0
+    t.integer  "inventory",                  default: 0
+    t.integer  "stock_level",                default: 0
+    t.string   "properties",                 default: ""
+    t.string   "scode",                      default: ""
     t.date     "deleted_on"
     t.integer  "product_id"
     t.integer  "category_id"
     t.integer  "supplier_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                                 null: false
+    t.datetime "updated_at",                                 null: false
   end
 
-  add_index "products", ["category_id"], name: "index_products_on_category_id", using: :btree
-  add_index "products", ["link"], name: "index_products_on_link", using: :btree
-  add_index "products", ["product_id"], name: "index_products_on_product_id", using: :btree
-  add_index "products", ["supplier_id"], name: "index_products_on_supplier_id", using: :btree
+  add_index "products", ["category_id"], name: "index_products_on_category_id"
+  add_index "products", ["link"], name: "index_products_on_link"
+  add_index "products", ["product_id"], name: "index_products_on_product_id"
+  add_index "products", ["supplier_id"], name: "index_products_on_supplier_id"
 
-  create_table "purchases", force: true do |t|
+  create_table "purchases", force: :cascade do |t|
     t.string   "name"
     t.date     "ordered_on"
     t.date     "received_on"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
-  create_table "suppliers", force: true do |t|
+  create_table "suppliers", force: :cascade do |t|
     t.string   "supplier_name"
     t.string   "address"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
 end

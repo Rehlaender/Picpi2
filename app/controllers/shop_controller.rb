@@ -3,7 +3,7 @@ class ShopController < ApplicationController
   include OfficeHelper
 
   force_ssl :if => :has_ssl? , :only => :sign_out
-  
+
   def welcome
     @groups = Category.online.where( :category_id => nil )
     render :layout => false
@@ -12,7 +12,7 @@ class ShopController < ApplicationController
   def product
     @product = Product.shop_products.where(:link => params[:link]).first
     unless @product
-      redirect_to :action => :group 
+      redirect_to :action => :group
       return
     end
     @group = @product.category
@@ -31,7 +31,7 @@ class ShopController < ApplicationController
       @order.assign_attributes(order_ps)
       if (!params[:validation].blank?) and @order.save
         new_basket
-        OrderMailer.confirm(@order).deliver
+        OrderMailer.confirm(@order).deliver_now
         session[:order] = @order.id
         redirect_to shop_order_path, :notice => t(:thanks)
         return
@@ -58,7 +58,7 @@ class ShopController < ApplicationController
     return redirect_to office.sign_in_path unless clerk
     @orders = current_clerk.orders.limit(10).to_a.compact
     @last = @orders.shift
-    return redirect_to(root_path , :notice => I18n.t(:no_orders_yet)) if @last.blank? 
+    return redirect_to(root_path , :notice => I18n.t(:no_orders_yet)) if @last.blank?
   end
 
   def add
@@ -82,7 +82,7 @@ class ShopController < ApplicationController
   end
 
   def group
-    @group = Category.online.where(:link => params[:link]).first 
+    @group = Category.online.where(:link => params[:link]).first
     return redirect_to(shop_main_path) unless @group
     @products = @group.shop_products
     @groups = @group.categories.online
