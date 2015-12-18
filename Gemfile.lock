@@ -44,7 +44,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/print_clerk.git
-  revision: d563d07b4ebd8486a4074114d5ab93d23834e866
+  revision: 714b2821118a44637df4a6e0cbc2a7db20f912fb
   specs:
     print_clerk (0.5)
       barby (~> 0.6)
@@ -132,9 +132,9 @@ GEM
     codeclimate-test-reporter (0.4.8)
       simplecov (>= 0.7.1, < 1.0.0)
     coderay (1.1.0)
-    coffee-rails (4.1.0)
+    coffee-rails (4.1.1)
       coffee-script (>= 2.2.0)
-      railties (>= 4.0.0, < 5.0)
+      railties (>= 4.0.0, < 5.1.x)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -260,7 +260,7 @@ GEM
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     rack (1.6.4)
-    rack-attack (4.3.0)
+    rack-attack (4.3.1)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
