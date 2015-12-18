@@ -16,7 +16,8 @@ namespace :db do
     if admin = Clerk.where(:admin => true).first
       puts "Admin alreay present #{admin.email}"
     else
-      Clerk.create! :email => "admin@example.com" , :password => "password" , :password_confirmation => "password" , :admin => true
+      admin = Clerk.create! :email => "admin@example.com" , :password => "password" , :password_confirmation => "password" , :admin => true
+      puts "Admin created #{admin.email} , password=password"
     end
   end
 end
