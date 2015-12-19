@@ -18,6 +18,8 @@ module SalesClerk
       "sales_office"
     end
 
+    config.cache_store = :memory_store, { size: 64.megabytes }
+
     # don't generate RSpec tests for views and helpers
     config.generators do |g|
 

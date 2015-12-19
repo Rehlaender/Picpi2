@@ -2,4 +2,5 @@
 require File.expand_path('../application', __FILE__)
 
 # Initialize the Rails application.
-SalesClerk::Application.initialize!
+Rails.application.initialize!
+Rails.cache.silence!

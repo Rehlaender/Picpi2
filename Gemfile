@@ -21,9 +21,6 @@ gem 'rails-i18n'
 #one wishes one would not need it. alas . . .
 gem 'rack-attack'
 
-# those guys dropped 1.9 support, but i haven't
-gem "autoprefixer-rails" , '< 6.0' , :platform => [:ruby_19]
-
 group :development do
   gem 'better_errors' , :platforms=>[:mri_20, :mri_21, :rbx]
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :mri_21,:rbx]
