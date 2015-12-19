@@ -15,4 +15,13 @@ module ShopHelper
     prods.delete(product)
     prods.sample(get)
   end
+
+  def products_for(group)
+    group.shop_products
+  end
+
+  def categories_for(group)
+    group.categories.online
+  end
+
 end

@@ -15,7 +15,6 @@ class ShopController < ApplicationController
       redirect_to :action => :group
       return
     end
-    @group = @product.category
   end
 
   # the checkout page creates an order upon completion. So before a checkout the basket is attached to the session
@@ -84,8 +83,6 @@ class ShopController < ApplicationController
   def group
     @group = Category.online.where(:link => params[:link]).first
     return redirect_to(shop_main_path) unless @group
-    @products = @group.shop_products
-    @groups = @group.categories.online
   end
 
   def page
