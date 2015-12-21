@@ -2,14 +2,14 @@
 Rack::Attack.blacklist('block admin probes') do |req|
   # Request are blocked if the return value is truthy
   ["php" , "jsp" , "cgi", "asp", "cfm," "proxy.txt", "soapCaller", "Win32" , "HNAP1" , "w00tw00t",
-    "pma" , "mysql" ,"msd" , "MySQL" , "jmx-console" , "ervlet" , "xml" , "cart" ,"install"].each do |no|
+    "pma" , "mysql" ,"msd" , "MySQL" , "jmx-console" , "ervlet" , "xml" , "cart" ,"install", "webdav"].each do |no|
     return true if  req.path.include?(no)
   end
   false
 end
 
 # Block requests from people clearly out to break servers
-Rack::Attack.blacklist('block admin probes') do |req|
+Rack::Attack.blacklist('block admin ips') do |req|
   [ "79.143.82.69" , "85.76.99.50", "127.0.0.1"].include? req.ip
 end
 
