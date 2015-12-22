@@ -66,7 +66,7 @@ class ShopController < ApplicationController
     if request.get?
       redirect_to shop_checkout_path
     else
-      flash.notice = "#{t(:product_added)}: #{prod.name}"
+      flash.notice = "#{t(:product_added)}: #{prod.name}. #{view_context.link_to(t(:checkout) , shop_checkout_path)}"
       redirect_to shop_group_path(prod.category.link)
     end
   end
