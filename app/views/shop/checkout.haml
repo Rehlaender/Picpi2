@@ -105,6 +105,12 @@
     .col-md-3
       %h4.highlight
         =t(:payment_type)
+      - if( used_card(current_clerk) )
+        .row
+          .col-md-6
+            %b= t(:use_cc)
+          .col-md-3.form-group
+            = check_box_tag :use_card
 
     .col-md-9
       .row
