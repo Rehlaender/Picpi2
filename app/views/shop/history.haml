@@ -7,41 +7,49 @@
   .col-md-9
     .row
       .col-md-6
-        %i 
-          %h4.highlight= t(:latest_order)    
+        %i
+          %h4.highlight= t(:latest_order)
       = render :partial => "order_9" , :locals => { :order => @last }
-    %b 
-      =t(:choosen_shipment) +" :" 
-      = shipping_method(@last.shipment_type).name
-    %br
-      = [ @last.name ,   @last.street,   @last.city ,  @last.phone  ].join(", ")
-    
+    .col-md-6
+      %b
+        =t(:choosen_shipment) +" :"
+        = shipping_method(@last.shipment_type).name
+      %br
+        = [ @last.name ,   @last.street,   @last.city ,  @last.phone  ].join(", ")
+    .col-md-6
+      %b
+        = t(:paid_on) + ":"
+        \
+        -if @last.paid_on
+          = date(@last.paid_on)
+        -else
+          = link_to t(:pay), shop_order_path, :class => "btn btn-info pay_now"
+
 .row
-  %hr 
+  %hr
   .col-md-3
     %h4.highlight=t(:previous_orders)
 
 -@orders.each do |order|
   .row
-    %br 
+    %br
     .col-md-3
       %b= date order.ordered_on
       %br
       %br
-      %b= t(:total) 
-      = order.total_price
+      %b= t(:paid_on)
+      = date(order.paid_on)
       %br
       %b= shipping_method(order.shipment_type).name
       %br
       = order.name
-      %br 
+      %br
       = order.street
-      %br 
+      %br
       = order.city
-      %br 
+      %br
       =order.phone
 
     .col-md-9
       = render :partial => "order_9" , :locals => { :order => order }
-  %hr 
-      
+  %hr
