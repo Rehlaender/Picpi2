@@ -305,6 +305,8 @@ GEM
     ref (2.0.0)
     reference_number (0.0.1)
     request_store (1.2.1)
+    rollbar (2.7.1)
+      multi_json
     rspec (3.4.0)
       rspec-core (~> 3.4.0)
       rspec-expectations (~> 3.4.0)
@@ -408,6 +410,7 @@ DEPENDENCIES
   rails
   rails-i18n
   rb-readline
+  rollbar
   rspec-rails
   sqlite3
   therubyracer

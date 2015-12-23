@@ -20,6 +20,7 @@ gem 'rails-i18n'
 
 #one wishes one would not need it. alas . . .
 gem 'rack-attack'
+gem 'rollbar'
 
 group :development do
   gem 'better_errors' , :platforms=>[:mri_20, :mri_21, :rbx]
