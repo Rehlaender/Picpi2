@@ -8,13 +8,13 @@ gem 'print_clerk' , github: "rubyclerks/print_clerk"
 #gem 'print_clerk' , path: "../print_clerk"
 
 gem 'stripe'
-gem 'stripe_clerk' , :path => "../stripe_clerk"
-#gem "stripe_clerk", github: "rubyclerks/stripe_clerk"
+#gem 'stripe_clerk' , :path => "../stripe_clerk"
+gem "stripe_clerk", github: "rubyclerks/stripe_clerk"
 
 gem 'post_clerk' ,  github: "rubyclerks/post_clerk"
 
-#gem "office_clerk", github: "rubyclerks/office_clerk"
-gem "office_clerk", path: "../office_clerk"
+gem "office_clerk", github: "rubyclerks/office_clerk"
+#gem "office_clerk", path: "../office_clerk"
 
 gem 'db_fixtures_dump'  , github: "dancinglightning/db_fixtures_dump" #backup
 
