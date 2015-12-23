@@ -37,8 +37,6 @@ module SalesClerk
 
     config.middleware.use Rack::Attack
 
-    config.action_dispatch.cookies_serializer = :hybrid
-
     config.i18n.default_locale = ENV["KAUPPA_ID"].to_s.include?("12603339") ? :fi : :en
     config.active_record.raise_in_transactional_callbacks = true
   end
