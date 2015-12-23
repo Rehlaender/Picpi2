@@ -46,9 +46,9 @@ class ShopController < ApplicationController
     session[:order] = @order.id
     notice = t(:thanks)
     unless(params[:use_card].blank?)
-      customer = used_card(current_clerk).payment_info
+      charge = has_charge(current_clerk)
       begin
-        charge_customer customer , @order
+        charge_customer charge.customer , @order
         notice += "<br/>" + t(:paid)
       rescue Stripe::StripeError => e # nothing must escape, CardError is just a subset
         notice += "<br/>" + e.message
