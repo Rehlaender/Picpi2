@@ -2,6 +2,7 @@
 //= require jquery-ui/datepicker
 //= require jquery-ui/datepicker-fi
 //= require_self
+//= require stripe_clerk/charges
 
 function shipmentSelected(){
   var val = $("input[name='order[shipment_type]']:checked").data("price");

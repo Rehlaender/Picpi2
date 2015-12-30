@@ -1,6 +1,8 @@
 class ShopController < ApplicationController
   layout "sales_clerk"
   include OfficeHelper
+  include StripeClerk::ChargesHelper
+  helper StripeClerk::ChargesHelper
 
   force_ssl :if => :has_ssl? , :only => :sign_out
 
@@ -29,15 +31,30 @@ class ShopController < ApplicationController
       order_ps = params.require(:order).permit( :email,:name , :street , :city , :phone , :shipment_type )
       @order.assign_attributes(order_ps)
       if (!params[:validation].blank?) and @order.save
-        new_basket
-        OrderMailer.confirm(@order).deliver_now
-        session[:order] = @order.id
-        redirect_to shop_order_path, :notice => t(:thanks)
-        return
+        return process_order #always redirects
       else
         flash.now.notice = I18n.t(:must_accept) if params[:validation].blank?
       end
     end
+  end
+
+  # called when address is ok and order already saved
+  # includes possible charge with previous credit card if the checkbox was clicked
+  def process_order
+    new_basket
+    OrderMailer.confirm(@order).deliver_now
+    session[:order] = @order.id
+    notice = t(:thanks)
+    unless(params[:use_card].blank?)
+      charge = has_charge(current_clerk)
+      begin
+        charge_customer charge.customer , @order
+        notice += "<br/>" + t(:paid)
+      rescue Stripe::StripeError => e # nothing must escape, CardError is just a subset
+        notice += "<br/>" + e.message
+      end
+    end
+    redirect_to shop_order_path, :notice => notice
   end
 
   def order
@@ -66,7 +83,7 @@ class ShopController < ApplicationController
     if request.get?
       redirect_to shop_checkout_path
     else
-      flash.notice = "#{t(:product_added)}: #{prod.name}"
+      flash.notice = "#{t(:product_added)}: #{prod.name}. #{view_context.link_to(t(:checkout) , shop_checkout_path)}"
       redirect_to shop_group_path(prod.category.link)
     end
   end
