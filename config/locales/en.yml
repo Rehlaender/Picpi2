@@ -23,6 +23,7 @@ en:
   payment_description_text: Currently the payment method is prepayment by bank. DA DA DA better change this.
   payment_header: Payment
   payment_type: Payment
+  paid: Paid
   powered_by: Powered by
   previous_addresses: Previous addresses
   previous_orders: Previous orders
