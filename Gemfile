@@ -7,6 +7,10 @@ gem 'accountant_clerk' , github: "rubyclerks/accountant_clerk"
 gem 'print_clerk' , github: "rubyclerks/print_clerk"
 #gem 'print_clerk' , path: "../print_clerk"
 
+gem 'stripe'
+#gem 'stripe_clerk' , :path => "../stripe_clerk"
+gem "stripe_clerk", github: "rubyclerks/stripe_clerk"
+
 gem 'post_clerk' ,  github: "rubyclerks/post_clerk"
 
 gem "office_clerk", github: "rubyclerks/office_clerk"

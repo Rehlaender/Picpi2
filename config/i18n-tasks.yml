@@ -92,12 +92,17 @@ ignore_missing:
   - product
   - quantity
   - total_price
-  
+  - checkout
+  - paid_on
+  - pay
+
 # - 'errors.messages.{accepted,blank,invalid,too_short,too_long}'
 # - '{devise,simple_form}.*'
 
 ## Consider these keys used
-# ignore_unused:
+ignore_unused:
+  - shop
+  - total
 # - 'activerecord.attributes.*'
 # - '{devise,kaminari,will_paginate}.*'
 # - 'simple_form.{yes,no}'

@@ -13,10 +13,10 @@
         %h4=t(:basket_contents)
         %div
           %table.table.table-hover.table-condensed
-            %thead            
+            %thead
               %tr
                 %th= t(:product)
-                %th 
+                %th
                 %th= t(:price)
                 %th= t(:quantity)
                 %th= t(:quantity)
@@ -37,15 +37,15 @@
                   %td= number_to_currency item.total
 
               %tr
-                %th 
+                %th
                 %th= t(:products_total)
                 %th
                 %th
                 %th= number_to_currency current_basket.total_price
-        
+
   .row
-    %hr 
-  
+    %hr
+
     .col-md-3
       %h4.highlight
         =t(:choose_shipment)
@@ -61,7 +61,7 @@
                 .frame.bg-high8
                   %b= t(:notice) + "!"
                   = t(:order_enough_for_free_shipping)
-                  
+
 
     .col-md-9
       .row
@@ -87,47 +87,57 @@
                   %span#basket_total= current_basket.total_price.round(2)
                   €
             %tbody
-              %tr 
-                %th= t(:shipping_cost) 
+              %tr
+                %th= t(:shipping_cost)
                 %td.text-right
                   %span#shipping_cost= @order.shipment_price
                   €
-              %tr 
+              %tr
                 %th Tilaus yhteensä
                 %th.text-right
                   %span#order_total= @order.total_price.round(2)
                   €
         .col-md-1
 
-  
+
   .row
-    %hr 
+    %hr
     .col-md-3
       %h4.highlight
         =t(:payment_type)
+      - if( charge = has_charge(current_clerk) )
+        .row
+          .col-md-6
+            %b
+            = t(:use_cc)
+            (
+            =charge.source.last4
+            )
+          .col-md-3.form-group
+            = check_box_tag :use_card , "1" ,  params[:use_card] 
 
     .col-md-9
       .row
         .col-md-9
           %h4= t(:payment_header)
-          = t(:payment_description_text)
-            
-        
+          = raw t(:payment_description_text)
+
+
   .row
-    %hr 
+    %hr
     .col-md-3
       .row
         .col-md-9
           %h4.highlight=t(:contact_details)
           %br/
-          
+
           %b=t(:previous_addresses)
-          
+
           .frame#previous_address
             -if current_clerk
               - address = current_clerk.last_address
               %span.name=address[:name]
-              %br/ 
+              %br/
               %span.street= address[:street]
               %br/
               %span.city= address[:city]
@@ -141,19 +151,18 @@
     .col-md-9
       .row
         .col-md-9#address_form
-          %h4= t(:contact_details) 
+          %h4= t(:contact_details)
           = f.text_field :name , :placeholder => t(:name)
           = f.text_field :street , :placeholder => t(:street)
           = f.text_field :city , :placeholder => t(:city)
           = f.text_field :phone , :placeholder => t(:phone)
           = f.email_field :email, :placeholder => t(:email)
-          %hr 
+          %hr
           .checkbox
             %label
               = radio_button_tag :validation , true , !params[:validation].blank?
               = t(:read_and_agree)
-              = link_to( t(:terms) , "/page/toimitusehdot",  :target => "blank") 
-              
+              = link_to( t(:terms) , "/page/toimitusehdot",  :target => "blank")
+
           %button.btn.btn-primary.btn-lg#make_order{:type => "submit" , :disabled => @order.basket.items.length == 0 }
             =t(:make_order)
-            
