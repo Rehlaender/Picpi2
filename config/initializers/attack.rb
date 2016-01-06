@@ -3,7 +3,7 @@ Rack::Attack.blacklist('block admin probes') do |req|
   # Request are blocked if the return value is truthy
   reject = false
   ["php" , "jsp" , "cgi", "asp", "cfm," "proxy.txt", "soapCaller", "Win32" , "HNAP1" , "w00tw00t",
-    "pma" , "mysql" ,"msd" , "MySQL" , "jmx-console" , "ervlet" , "xml" , "cart" ,"install",
+    "pma" , "mysql" ,"msd" , "MySQL" , "jmx-console" , "ervlet" , "xml" ,"install",
     "webdav"].each do |no|
     if req.path.include?(no)
       reject = true
