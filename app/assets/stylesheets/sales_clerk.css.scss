@@ -94,13 +94,13 @@ font-weight: 500;
   left: 0;
   bottom: 0;
   padding: 10px;
-  color: #FFF;
+  color: #000;
   background: black;
   /* fallback color */
-  background: rgba(84, 214, 255, 0.54);
-	text-shadow: black 1px 1px 03px;
+  background: rgba(247, 253, 255, 0.54);
+  text-shadow: rgb(234, 234, 234) -1px -1px 05px;
   margin: 0px;
-	width: 100%;
+  width: 100%;
 }
 
 .group-wrapper.sub img {
@@ -120,14 +120,15 @@ width: 220px;  }
 .group-wrapper.side-tex h5 {
   font-size: 16px;
   width: 220px;
-  color: #ffffff;
-  background: #54B4FF;
-  text-shadow: none;
-  padding: 5px 0 8px 8px;
-  text-shadow: black 1px 1px 03px;
-	position: relative;
+  color: #000000;
+  text-shadow: none !important;
+  padding: 0 0 0 2px;
+  position: relative;
+  border-bottom: 1px solid #0078ff;
+  box-shadow: 1px 1px 6px rgba(210,210,210,1);
+  a { text-decoration: none; }
+  img { padding-right: 5px; }
 }
-
 
 
 .group-wrapper.checkout h5 {
@@ -141,7 +142,7 @@ text-shadow: rgb(255, 255, 255) 0px 0px 10px;
   position: fixed;
   left: 677px;
   top: 25px;
-  z-index: 10000;
+  z-index: 1320;
   text-align: right;
 }
 
@@ -171,6 +172,11 @@ text-shadow: rgb(255, 255, 255) 0px 0px 10px;
 .intro-text {
   width: 85%; }
 
+.intro-text p{
+  font-size: 15px; 
+  line-height: 120%;
+	}
+
 .intro2 p {
   font-size: .9em;
 	line-height: 130%;
@@ -191,8 +197,7 @@ text-shadow: rgb(255, 255, 255) 0px 0px 10px;
 .product-container {
   margin-bottom: 31px;
   position: relative;
-  border: 1px solid #5BE7E2;
-  box-shadow: 2px 2px 5px #E8EDF0;
+  box-shadow: 1px 1px 8px rgba(210,210,210,1);
   overflow: hidden;
   }
 
@@ -202,10 +207,11 @@ text-shadow: rgb(255, 255, 255) 0px 0px 10px;
   padding: 10px;
   color: #000000;
   font-size: 1.5rem;
-  background: #94cef6;
   margin: 0px;
 	width: 100%;
 	z-index: 1;
+	border-bottom: 1px solid #0078ff;
+  
 }
 
 .square-image {
@@ -224,11 +230,10 @@ text-shadow: rgb(255, 255, 255) 0px 0px 10px;
 }
 
 .product-fact {
-  border-top: 1px solid #0078ff;
   background: rgba(255, 255, 255, 0.7);
-  padding: 5px 10px 0 5px;
+  padding: 0px 10px 0 5px;
 	position: relative;
-	top: 75px;
+	top: 65px;
 }
 
 .product-fact	p {
@@ -428,14 +433,18 @@ color: black !important;
 .dropdown-menu {
   background-color: $highlight-2;
   color: #ffffff;
+  z-index: 10000;
   }
 
 .dropdown-menu > li > a {
   color: #ffffff;
+  z-index: 10000;
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-  background-color: $highlight-8; }
+  background-color: $highlight-8; 
+  z-index: 10000;
+  }
 
 .popover, .popover-title {
   font-size: 11px;
