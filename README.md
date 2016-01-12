@@ -9,7 +9,7 @@ The online shop of rubyclerks serves two major functions:
 - functionally it is the online store
 - technically it is your main repository (see installation)
 
-This is a bit like a skin/template for a shop. There will be others with different styles and only for product display. 
+This is a bit like a skin/template for a shop. There will be others with different styles and only for product display.
 
 See it [**online here**](http://auringostaitaan.fi/), but please don't create accounts. To see the admin side, read the
 [guides](http://rubyclerks.org/user_guide/01_index.html) or clone the repository.
@@ -24,28 +24,29 @@ Other Clerks provide functionality like:
 - [AccountantClerk](https://github.com/rubyclerks/accountant_clerk): sales reports and purchase help
 - [PrintClerk](https://github.com/rubyclerks/print_clerk): Invoice generation
 - [PostClerk](https://github.com/rubyclerks/post_clerk): Shipping by Post options
+- [StripeClerk](https://github.com/rubyclerks/stripe_clerk): Stripe payment
 
-In this respect SalesClerk is the online shop that you may (or may not) wish to run. 
+In this respect SalesClerk is the online shop that you may (or may not) wish to run.
 The SalesClerk application uses all of the above extensions.
 
 ## Views and ownership
 
-As most of the functionality is actually in the other clerks, 
+As most of the functionality is actually in the other clerks,
 SalesClerk contains mostly "just" the views that make up how a shop looks.
 
-We say "just", as this is not a small matter for anyone but the most tech-oriented. Previous experience has shown 
+We say "just", as this is not a small matter for anyone but the most tech-oriented. Previous experience has shown
 though, that tastes vary greatly and so there is little sense in even trying to make this a general thing.
 
 Technically speaking SalesClerk is a Rails4 application, while all other clerks are Rails Engines.
 
 # Installation
 
-The installation instructions here focus on the case of a new shop (or a tryout). In case you have an existing rails application and want to add e-commerce functionality to it, please read the online developer guide (or see office_clerk for now). In that case you will probably want to grab the views and ShopController from this repository to start you 
+The installation instructions here focus on the case of a new shop (or a tryout). In case you have an existing rails application and want to add e-commerce functionality to it, please read the online developer guide (or see office_clerk for now). In that case you will probably want to grab the views and ShopController from this repository to start you
 on making a front end.
 
 ### Clone
 
-The quickest way to get started is to clone this repository, 
+The quickest way to get started is to clone this repository,
 
 ```
   git clone https://github.com/rubyclerks/sales_clerk.git
@@ -108,8 +109,7 @@ Off course if you find bugs or have additions to the other clerks, see there for
 
 If you got this far and still have question, mail me, or mail the [list](https://groups.google.com/forum/#!forum/rubyclerks)
 
-Check the [User Guide](http://rubyclerks.org/user_guide/01_index.html), 
+Check the [User Guide](http://rubyclerks.org/user_guide/01_index.html),
 then the [Developer Guide](http://rubyclerks.org/developer_guide/01_index.html).
 
 Fill issues if you find, or discuss with me for ideas.
-
