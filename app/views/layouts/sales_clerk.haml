@@ -70,6 +70,7 @@
                         - else
                           %li= link_to t(:sign_up), office.sign_up_path
                           %li= link_to t(:sign_in), office.sign_in_path
+                  = yield :extra_pic
 
       .main
         - message = flash[:notice].blank? ? flash[:error] : flash[:notice]
