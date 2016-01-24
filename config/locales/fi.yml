@@ -7,7 +7,7 @@ fi:
   designed_by: Suunnittelu ja toteutus
   empty: Tyhjä
   log_in_see_history: Nähdäksesi tilaushistorian sinun täytyy kirjautua sisään.
-  login_addresses: Jos kirjaudut sisään voit käyttää edellisen tilauksen osoitetta.
+  login_addresses: Jos kirjaudut sisään, voit käyttää edellisen tilauksen osoitetta.
   make_order: Tee tilaus
   must_accept: Toimitusehdot on hyväksyttävä ennen tilausta.
   no_order_found: Tilausta ei löytynyt
