@@ -28,7 +28,11 @@ class ShopController < ApplicationController
       @order.email = current_clerk.email if current_clerk
       @order.shipment_type = "pickup" # price is 0 automatically
     else
-      order_ps = params.require(:order).permit( :email,:name , :street , :city , :phone , :shipment_type )
+      begin
+        order_ps = params.require(:order).permit( :email,:name , :street , :city , :phone , :shipment_type )
+      rescue
+        return redirect_to shop_checkout_path
+      end
       @order.assign_attributes(order_ps)
       if (!params[:validation].blank?) and @order.save
         return process_order #always redirects
