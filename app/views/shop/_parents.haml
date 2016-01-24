@@ -3,27 +3,38 @@
     .extrapic
       = image_tag group.extra_picture.url(:original) 
 .col-md-3
-  .group-wrapper.side-tex
-    %h5
-      %a{href: "/"}
-        =image_tag  "kauppa/aurinko.png"
-        = t(:to_hompage)
+  .row
+    .group-wrapper.side-tex
+      %h5
+        %a{href: "/"}
+          =image_tag  "kauppa/aurinko.png"
+          = t(:to_hompage)
 
-  - parents(group).each do | group|
-    .group-wrapper.side
+  
+    - parents(group).each do | group|
+      .group-wrapper.side
+        = link_to shop_group_path(group.link) do
+          = image_tag group.main_picture.url(:list)
+          %h5= group.name
+
+      .intro-text
+        %p.description
+          = markdown group.summary
+
+    .intro2.group-wrapper.side
       = link_to shop_group_path(group.link) do
         = image_tag group.main_picture.url(:list)
         %h5= group.name
-
     .intro-text
       %p.description
         = markdown group.summary
+        = markdown group.description
 
-  .intro2.group-wrapper.side
-    = link_to shop_group_path(group.link) do
-      = image_tag group.main_picture.url(:list)
-      %h5= group.name
-  .intro-text
-    %p.description
-      = markdown group.summary
-      = markdown group.description
+  .row
+    .shipping-info.frame
+      %a{href: "/page/toimitusehdot#toimituskulut"}
+        %h5.highlight
+          Edulliset toimituskulut,
+          %br
+          alkaen vain 3 €!
+  
