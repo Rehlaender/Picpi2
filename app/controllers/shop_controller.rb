@@ -88,7 +88,7 @@ class ShopController < ApplicationController
       redirect_to shop_checkout_path
     else
       flash.notice = "#{t(:product_added)}: #{prod.name}. #{view_context.link_to(t(:checkout) , shop_checkout_path)}"
-      redirect_to shop_group_path(prod.category.link)
+      redirect_to shop_group_path(:link => prod.category.link)
     end
   end
   def remove

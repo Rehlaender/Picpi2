@@ -9,7 +9,7 @@
               .col-lg-4
                 -next unless group
                 .group-wrapper.sub
-                  =link_to shop_group_path(group.link) do
+                  =link_to shop_group_path(:link => group.link) do
                     = image_tag group.main_picture.url(:product)
                     %h3= group.name
     .row.list

@@ -22,18 +22,18 @@
               .row
                 .col-md-6
                   =image_tag  "sales_clerk/spacer.gif"
-                  
+
                 .col-md-6
                   %ul.nav.navbar-nav.navbar-right
-                    %li.dropdown 
+                    %li.dropdown
                       %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
                         Auringosta Itään, Kuusta Länteen
                         %b.caret
-                      %ul.dropdown-menu 
-                        %li{:role => "presentation"} 
+                      %ul.dropdown-menu
+                        %li{:role => "presentation"}
                           %a{:href => "/page/liikkeemme", :role => "menuitem", :tabindex => "-1"} Liikkeemme
 
-                        %li{:role => "presentation"} 
+                        %li{:role => "presentation"}
                           %a{:href => "/page/toimitusehdot", :role => "menuitem", :tabindex => "-1"} Toimitusehdot
 
                     %li#link-to-cart
@@ -54,10 +54,10 @@
                         - else
                           %li= link_to t(:sign_up), office.sign_up_path
                           %li= link_to t(:sign_in), office.sign_in_path
-        
+
       .row
         .banner
-          \     
+          \ 
 
       .welcome
         .row
@@ -65,18 +65,17 @@
             =image_tag "kauppa/tervetuloa.gif"
           .col-md-2
           .col-md-5
-            %a.btn.btn-primary.btn-mega{:href => "/",:role => "button"} Siirry verkkokauppaan 
-          
-          
+            %a.btn.btn-primary.btn-mega{:href => "/",:role => "button"} Siirry verkkokauppaan
+
+
         - @groups.in_groups_of(3).each do |array|
           .row
             -array.each do |group|
               .col-md-4
                 -next unless group
                 .group-wrapper
-                  =link_to shop_group_path(group.link) do
+                  =link_to shop_group_path(:link => group.link) do
                     = image_tag group.main_picture.url(:product) , :class => "img-responsive"
                     %h3= group.name
 
         =render "layouts/footer"
-        
