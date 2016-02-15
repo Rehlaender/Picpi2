@@ -14,7 +14,7 @@
     - parents(group).each do | group|
       .group-wrapper.side
         = link_to shop_group_path(:link => group.link) do
-          = image_tag group.main_picture.url(:list)
+          = image_tag group.main_picture.url(:product)
           %h5= group.name
 
       .intro-text
@@ -23,7 +23,7 @@
 
     .intro2.group-wrapper.side
       = link_to shop_group_path(:link => group.link) do
-        = image_tag group.main_picture.url(:list)
+        = image_tag group.main_picture.url(:product)
         %h5= group.name
     .intro-text
       %p.description
