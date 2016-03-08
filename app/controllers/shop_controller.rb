@@ -11,6 +11,10 @@ class ShopController < ApplicationController
     render :layout => false
   end
 
+  def farfalla
+    @groups = Category.online.where( :category_id => nil )
+  end
+
   def product
     @product = Product.shop_products.where(:link => params[:link]).first
     unless @product

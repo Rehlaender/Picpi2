@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
 
- 
+
   #group / products
   get 'main' => 'shop#main', :as => :shop_main
+  get 'farfalla' => 'shop#farfalla', :as => :shop_farfalla
   get 'group/:link' => 'shop#group', :as => :shop_group
   get 'prod/:link' => 'shop#product', :as => :shop_product
 
