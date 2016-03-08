@@ -12,7 +12,7 @@ class ShopController < ApplicationController
   end
 
   def farfalla
-    @groups = Category.online.where( :category_id => nil )
+    @group = Category.online.where(:link => "farfalla").first
   end
 
   def product
