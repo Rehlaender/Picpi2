@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   rescue_from ActionController::RoutingError, with: :error_404
 
   def error_404
-    render status: 404 , :text => "move along"
+    render status: 404 , :text => "Creo que te perdiste"
   end
 
 end

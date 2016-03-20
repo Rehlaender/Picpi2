@@ -35,7 +35,7 @@ ul.cat {
 
 .main {
   max-width: 96%;
-  margin: 70px auto 0; }
+  margin: 10px auto 0; }
 
 @import "bootstrap";
 
@@ -306,8 +306,8 @@ h1.product-title {
     font-weight: 900;
     padding: 0px;
     }
-    
-  
+
+
 .frame {
   margin-right: 0;
   margin-left: 0;
@@ -323,7 +323,7 @@ h1.product-title {
 .frame#previous_address {
   margin-top: 6px;
   font-size: .85em;
-  
+
 }
 
 @media screen
@@ -341,7 +341,7 @@ h1.product-title {
 
 
 body {
-    margin-top: 50px;
+    margin-top: 0px;
     /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 

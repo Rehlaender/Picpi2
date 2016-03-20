@@ -41,7 +41,7 @@ group  :production do
   gem 'uglifier'
   gem "lograge"
   gem "newrelic_rpm"
-  gem "mysql2" , "~> 0.3.13"
+  gem 'pg', '0.17.1'
 end
 
 group :test do
