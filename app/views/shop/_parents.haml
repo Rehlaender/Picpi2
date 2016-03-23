@@ -7,8 +7,8 @@
     .group-wrapper.side-tex
       %h5
         %a{href: "/"}
-          =image_tag  "kauppa/aurinko.png"
-          = t(:to_hompage)
+
+          = "Regesar a inicio"
 
 
     - parents(group).each do | group|
@@ -32,8 +32,6 @@
 
   .row
     .shipping-info.frame
-      %a{href: "/page/howto#toimituskulut"}
+      %a{href: "/page/howto"}
         %h5.highlight
-          Edulliset toimituskulut,
-          %br
-          alkaen vain 3 €!
+          "¿Cómo comprar?"
