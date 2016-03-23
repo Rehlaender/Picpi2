@@ -1,0 +1,14 @@
+- if current_clerk
+  %li.dropdown
+    %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
+      = current_clerk ? current_clerk.email : t(:sign_in)
+      %b.caret
+    %ul.dropdown-menu
+      - if current_clerk
+        %li= link_to "Cerrar sesión", office.sign_out_path
+        %li{:role => "presentation"}
+          %a{:href => "/history", :role => "menuitem", :tabindex => "-1"}
+            = "Historial de compras"
+- else
+  %li= link_to "Registrate", office.sign_up_path
+  %li= link_to "Inicia sesión", office.sign_in_path

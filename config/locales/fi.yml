@@ -9,7 +9,7 @@ fi:
   log_in_see_history: Nähdäksesi tilaushistorian sinun täytyy kirjautua sisään.
   login_addresses: Jos kirjaudut sisään, voit käyttää edellisen tilauksen osoitetta.
   make_order: Tee tilaus
-  must_accept: Toimitusehdot on hyväksyttävä ennen tilausta.
+  must_accept: howto on hyväksyttävä ennen tilausta.
   no_order_found: Tilausta ei löytynyt
   no_orders_yet: Sinulla ei ole vielä tilauksia
   no_stock: Tuote tilapäisesti lopussa
@@ -47,7 +47,7 @@ fi:
   shipping_cost: Toimituskulut
   shop: Auringosta Itään
   similar_products: Muita tuotteita samassa tuoteryhmässä
-  terms: toimitusehdot
+  terms: howto
   thanks: Kiitos tilauksestasi!
   to_hompage: etusivulle
   total: Yhteensä

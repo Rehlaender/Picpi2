@@ -19,16 +19,12 @@
               <% end %>
           </ul>
         </li>
-        <li><%= link_to '¿Como comprar?', "/", :class=>"" %></li>
+        <li><%= link_to '¿Como comprar?', "/page/howto", :class=>"" %></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to 'Nosotros', "/", :class=>"" %></li>
-        <% if current_clerk %>
-          <li><%= link_to t(:sign_out), office.sign_out_path, :class=>"" %></li>
-        <% else %>
-        <li><%= link_to t(:sign_up), office.sign_up_path, :class=>"" %></li>
-        <li><%= link_to t(:sign_in), office.sign_in_path, :class=>"" %></li>
-        <% end %>
+        <%= render "layouts/wea" %>
+        <li class="bg-high1"><%= render "layouts/carrito" %></li>
       </ul>
     </div>
   </div>

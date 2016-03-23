@@ -162,7 +162,7 @@
             %label
               = radio_button_tag :validation , true , !params[:validation].blank?
               = t(:read_and_agree)
-              = link_to( t(:terms) , "/page/toimitusehdot",  :target => "blank")
+              = link_to( t(:terms) , "/page/howto",  :target => "blank")
 
           %button.btn.btn-primary.btn-lg#make_order{:type => "submit" , :disabled => @order.basket.items.length == 0 }
             =t(:make_order)
