@@ -1,0 +1,7 @@
+%a{href: main_app.shop_checkout_path}
+  = "Carrito: "
+  - if current_basket_or_nil.nil? or current_basket.items.count == 0
+    = "vacio"
+  -else
+    = current_basket.items.count
+    = "artículo(s)"
