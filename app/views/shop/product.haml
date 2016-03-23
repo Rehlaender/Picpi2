@@ -29,13 +29,13 @@
                   .row
                     .col-md-10
                       %button#add-to-cart-button.btn.btn-primary{:type => :submit, :class => @product.has_inventory? || "disabled" }
-                        = @product.has_inventory? ? t(:add_to_basket) : t(:no_stock)
+                        = @product.has_inventory? ? "Agregar al carrito" : "Producto sin stock"
 
     .row
       .col-md-12
         %br/
         %h6.highlight.product-hint
-          =t(:similar_products)
+          ="Productos similares"
         .row
           - in_group(@product).each do |p|
             .product-hint-box
