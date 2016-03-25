@@ -2,33 +2,40 @@
   .col-md-3
     .group-wrapper.side.checkout
       =image_tag "sales_clerk/checkout-im.jpg"
-      %h5 Tilaushistoria
+      %h5 Historial de compras
 
   .col-md-9
     .row
       .col-md-6
         %i
-          %h4.highlight= t(:latest_order)
+          %h4.highlight= "Última orden"
       = render :partial => "order_9" , :locals => { :order => @last }
     .col-md-6
-      %b
+      %b.hide
+        ="Para cuando se implementen más tipos de envios."
         =t(:choosen_shipment) +" :"
         = shipping_method(@last.shipment_type).name
+      %b
+        \
+        -if @last.paid_on
+          = "Orden entregada"
+        -else
+          = "Tipo de envío: Recoger en caja"
       %br
         = [ @last.name ,   @last.street,   @last.city ,  @last.phone  ].join(", ")
     .col-md-6
       %b
-        = t(:paid_on) + ":"
+        = "Pagado el:"
         \
         -if @last.paid_on
           = date(@last.paid_on)
         -else
-          = link_to t(:pay), shop_order_path, :class => "btn btn-info pay_now"
+          = "Pendiente por pagar"
 
 .row
   %hr
   .col-md-3
-    %h4.highlight=t(:previous_orders)
+    %h4.highlight= "Ordenes anteriores"
 
 -@orders.each do |order|
   .row
@@ -37,11 +44,22 @@
       %b= date order.ordered_on
       %br
       %br
-      %b= t(:paid_on)
-      = date(order.paid_on)
+      %b
+        = "Pagado el:"
+        \
+        -if order.paid_on
+          = date(order.paid_on)
+        -else
+          = "Pendiente por pagar!!!"
       %br
-      %b= shipping_method(order.shipment_type).name
+      %b
+        \
+        -if order.paid_on
+          = "Orden entregada"
+        -else
+          = "Recoger en caja"
       %br
+      = "Orden por: "
       = order.name
       %br
       = order.street
