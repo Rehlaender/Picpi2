@@ -10,16 +10,16 @@
     .col-md-9
       .row
         %br
-        %h4=t(:basket_contents)
+        %h4= "Contenido del carrito"
         %div
           %table.table.table-hover.table-condensed
             %thead
               %tr
-                %th= t(:product)
+                %th= "Producto"
                 %th
-                %th= t(:price)
-                %th= t(:quantity)
-                %th= t(:quantity)
+                %th= "Precio"
+                %th= "Cantidad"
+                %th= "Total"
             %tbody
               -current_basket.items.each do |item|
                 %tr
@@ -38,7 +38,7 @@
 
               %tr
                 %th
-                %th= t(:products_total)
+                %th= "Precio total"
                 %th
                 %th
                 %th= number_to_currency current_basket.total_price
@@ -48,55 +48,53 @@
 
     .col-md-3
       %h4.highlight
-        =t(:choose_shipment)
+        = "Tipo de entrega"
         .row
           .col-md-10
             %br
-              - extra = OfficeClerk.config("defaults.free_shipping") - current_basket.total_price
-              - if extra > 0
+              - extra = 0
+              - if extra = 0
                 .frame.bg-high8
-                  %b= t(:notice) + "!"
-                  = t(:order_more_for_free_shipping , :more => extra.round(2))
-              - if extra < 0
-                .frame.bg-high8
-                  %b= t(:notice) + "!"
-                  = t(:order_enough_for_free_shipping)
+                  %b= "Nota" + ":"
+                  = "Recuerda que después de generar tu pedido tendrás que ir a recogerlo y pagarlo a la tienda en persona."
 
 
     .col-md-9
       .row
         .col-md-7
-          %h4=t(:choose_shipment)
+          %h4= "Tipo de entrega de la compra: "
+          %br
           - OfficeClerk::ShippingMethod.all.each_value do |s|
-            .radio
+            .radio.hide
               = radio_button_tag "order[shipment_type]" , s.type , s.type.to_s == @order.shipment_type , "data-price" => s.price_for(current_basket).round(2)
               = s.name
               = s.price_for(current_basket).round(2)
               €
+          =render "layouts/recibir"
 
         .col-md-4
           %h4
-            = t(:order)
+            = "Orden"
             = @order.number
 
           %table.table.table-condensed.basket-total
             %thead
               %tr
-                %th= t(:products_total)
+                %th= "Total por productos"
                 %td.text-right
                   %span#basket_total= current_basket.total_price.round(2)
-                  €
+                  $
             %tbody
               %tr
-                %th= t(:shipping_cost)
+                %th= "Costo de envio"
                 %td.text-right
                   %span#shipping_cost= @order.shipment_price
-                  €
+                  $
               %tr
-                %th Tilaus yhteensä
+                %th "Total a pagar"
                 %th.text-right
                   %span#order_total= @order.total_price.round(2)
-                  €
+                  $
         .col-md-1
 
 
@@ -104,7 +102,7 @@
     %hr
     .col-md-3
       %h4.highlight
-        =t(:payment_type)
+        ="Tipo de pago"
       - if( charge = has_charge(current_clerk) )
         .row
           .col-md-6
@@ -114,13 +112,13 @@
             =charge.source.last4
             )
           .col-md-3.form-group
-            = check_box_tag :use_card , "1" ,  params[:use_card] 
+            = check_box_tag :use_card , "1" ,  params[:use_card]
 
     .col-md-9
       .row
         .col-md-9
-          %h4= t(:payment_header)
-          = raw t(:payment_description_text)
+          %h4= "Tipo de pago"
+          = raw "Pagar personalmente en caja"
 
 
   .row
