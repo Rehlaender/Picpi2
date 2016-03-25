@@ -123,10 +123,10 @@
 
   .row
     %hr
-    .col-md-3
+    .col-md-3.hide
       .row
         .col-md-9
-          %h4.highlight=t(:contact_details)
+          %h4.highlight= "Detalle de contacto"
           %br/
 
           %b=t(:previous_addresses)
@@ -146,21 +146,22 @@
               %button.btn.btn-primary.btn-xs#fill_address{:type => "button"} Käytä tätä osoitetta
             -else
               =t(:login_addresses)
-    .col-md-9
+    .col-md-10
       .row
-        .col-md-9#address_form
-          %h4= t(:contact_details)
-          = f.text_field :name , :placeholder => t(:name)
-          = f.text_field :street , :placeholder => t(:street)
-          = f.text_field :city , :placeholder => t(:city)
-          = f.text_field :phone , :placeholder => t(:phone)
-          = f.email_field :email, :placeholder => t(:email)
+        .col-md-10#address_form
+          %h4= "Detalle de contacto"
+          = f.text_field :name , :class => "", :placeholder => "Nombre", :label => "Nombre", :value => current_clerk.name
+          = f.text_field :street , :placeholder => "Calle", :label => "Calle", :value => current_clerk.street
+          = f.text_field :city , :placeholder => "Ciudad", :label => "City", :value => current_clerk.city
+          = f.text_field :phone , :placeholder => "Teléfono", :label => "Teléfono", :value => current_clerk.phone
+          = f.email_field :email, :placeholder => "Email", :label => "Email", :value => current_clerk.email
           %hr
           .checkbox
             %label
               = radio_button_tag :validation , true , !params[:validation].blank?
-              = t(:read_and_agree)
-              = link_to( t(:terms) , "/page/howto",  :target => "blank")
+              = "Estoy conciente de que tengo que ir a recibir y pagar la orden personalmente en caja."
+              = link_to( "(¿Cómo comprar en Picpi?)" , "/page/howto",  :target => "blank")
 
           %button.btn.btn-primary.btn-lg#make_order{:type => "submit" , :disabled => @order.basket.items.length == 0 }
-            =t(:make_order)
+            = "Realizar orden"
+          %br
