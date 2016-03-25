@@ -1,19 +1,19 @@
 .row
   .col-md-6
-    %b= t(:order)
+    %b= "Orden: "
     =order.number
-    = t(:received) 
+    %b= "realizada el: "
     =date(order.ordered_on || Date.today)
 %br
 %div
   %table.table.table-condensed
-    %thead            
+    %thead
       %tr
-        %th= t(:product)
-        %th 
-        %th= t(:price)
-        %th= t(:quantity)
-        %th= t(:total_price)
+        %th= "Productos"
+        %th
+        %th= "Precio"
+        %th= "Cantidad"
+        %th= "Precio Total"
     %tbody
       -order.basket.items.each do |item|
         %tr
@@ -25,20 +25,20 @@
           %td= item.quantity
           %td= number_to_currency item.total
       %tr
-        %th 
-        %th=t(:products_total)
+        %th
+        %th= "Total por productos"
         %th
         %th
         %th= number_to_currency order.basket.total_price
       %tr
-        %td 
-        %td= t(:shipping_cost)
+        %td
+        %td= "Total por envío"
         %td
         %td
         %td= number_to_currency order.shipment_price
       %tr
-        %th 
-        %th=t(:order_total)
+        %th
+        %th= "Total a pagar"
         %th
         %th
         %th= number_to_currency order.total_price

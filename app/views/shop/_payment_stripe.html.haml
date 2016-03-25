@@ -2,44 +2,21 @@
   %hr
   .col-md-3
     %h4.highlight
-      =t(:payment_type)
+      = "Tipo de pago"
 
   .col-md-9
     .row
       .col-md-9
-        %h4 Ostoksen maksaminen
-        
-        - if order.paid_on && order.payment_type == "stripe"
-          = render partial: 'stripe_clerk/charges/show', locals: {order: order}
-        - elsif order.paid_on
-          Thank you, we got your money transfer (#{euros order.total_price})
-        - else
-          = render partial: 'stripe_clerk/charges/new', locals: {order: order}
+        %h4 Recuerde que el pago se hace personalmente en caja.
+        %p
+        = "Total a pagar: "
+        %b= number_to_currency order.total_price
+
+
     %div
       %br/
       %b
-        Voit maksaa ostoksesi joko luottokortilla (myös debit-pankkikortilla), tai ennakkomaksuna eli tilisiirtona.
-      %br/
-      %b
-        Jos maksat kortilla, 
-      tilaamasi tuotteet postitetaan 1-3 arkipäivän
-      kuluessa tilauksestasi. Saat tilausvahvistuksen tiedot myös
-      sähköpostiisi.
-      %br/
-      %br/
-      %b
-        Jos valitset ennakkomaksun, 
-      tilauksesi lähetetään kun olet maksanut sen ja maksusi on kirjautunut tilillemme.
-      %br/
-      Tilinumero on FI1017 4530 0013 2474, mainitse viestikentässä
-      %b
-        tilausnumerosi
-        = order.number
-      tai 
-      %b
-        käytä viitenumeroa
-        = order.viite + " ."
-      %br/
-      Saat tilausvahvistuksen tiedot myös sähköpostiisi. Kun maksusi on
-      kirjautunut tilille, toimitamme tilaamasi tuotteet. Ne lähtevät
-      normaalisti 1-3 arkipäivän kuluessa.
+        Al llegar a caja mencione su número de orden para relacionar la compra y poder realizar el pago correspondiente.
+      %p
+      = "Numero de orden: "
+      %b= order.number
