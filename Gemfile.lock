@@ -456,7 +456,7 @@ DEPENDENCIES
   rollbar
   rspec-rails
   spring (= 1.1.3)
-  sqlite3
+  sqlite3 (= 1.3.11)
   stripe_clerk!
   therubyracer
   thin

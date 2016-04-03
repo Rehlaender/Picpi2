@@ -16,7 +16,7 @@ gem "office_clerk", github: "Rehlaender/office_clerk", branch: "develop"
 
 gem 'db_fixtures_dump'  , github: "dancinglightning/db_fixtures_dump" #backup
 
-gem 'sqlite3'
+gem 'sqlite3','1.3.11'
 gem "rails"
 gem 'rails-i18n'
 
