@@ -33,6 +33,9 @@ group :development do
   gem 'quiet_assets'
   gem "thin"
   gem "rb-readline"
+  gem 'byebug', '3.4.0'
+  gem 'web-console', '2.0.0.beta3'
+  gem 'spring', '1.1.3'
 end
 
 group  :production do
@@ -42,6 +45,7 @@ group  :production do
   gem "lograge"
   gem "newrelic_rpm"
   gem 'pg', '0.17.1'
+  gem 'rails_12factor', '0.0.2'
 end
 
 group :test do

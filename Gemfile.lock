@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/Rehlaender/office_clerk.git
-  revision: 9a4fd1ae5bd77fc5b4bb93469c11f9bdb1c3a916
+  revision: 6c0e79ab43d7d051de48402420934be78d90fef4
   branch: develop
   specs:
     office_clerk (1.0.0)
@@ -116,13 +116,17 @@ GEM
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
       rack (>= 0.9.0)
-    binding_of_caller (0.7.2)
+    binding_of_caller (0.7.3.pre1)
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.3.6)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
     bootstrap_form (2.3.0)
     builder (3.2.2)
+    byebug (3.4.0)
+      columnize (~> 0.8)
+      debugger-linecache (~> 1.2)
+      slop (~> 3.6)
     capybara (2.6.2)
       addressable
       mime-types (>= 1.16)
@@ -148,10 +152,12 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.10.0)
+    columnize (0.9.0)
     concurrent-ruby (1.0.1)
     daemons (1.2.3)
     database_cleaner (1.5.1)
     debug_inspector (0.0.2)
+    debugger-linecache (1.2.0)
     diff-lcs (1.2.5)
     docile (1.1.5)
     domain_name (0.5.20160310)
@@ -302,6 +308,11 @@ GEM
     rails-i18n (4.0.8)
       i18n (~> 0.7)
       railties (~> 4.0)
+    rails_12factor (0.0.2)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     railties (4.2.6)
       actionpack (= 4.2.6)
       activesupport (= 4.2.6)
@@ -362,6 +373,7 @@ GEM
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.0)
     slop (3.6.0)
+    spring (1.1.3)
     sprockets (3.5.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
@@ -398,6 +410,11 @@ GEM
     valid_email (0.0.13)
       activemodel
       mail (~> 2.6.1)
+    web-console (2.0.0.beta3)
+      activemodel (~> 4.0)
+      binding_of_caller (= 0.7.3.pre1)
+      railties (~> 4.0)
+      sprockets-rails (>= 2.0, < 4.0)
     will_paginate (3.1.0)
     will_paginate-bootstrap (1.0.1)
       will_paginate (>= 3.0.3)
@@ -411,6 +428,7 @@ DEPENDENCIES
   accountant_clerk!
   better_errors
   binding_of_caller
+  byebug (= 3.4.0)
   capybara
   capybara-screenshot
   codeclimate-test-reporter
@@ -433,11 +451,14 @@ DEPENDENCIES
   rack-attack
   rails
   rails-i18n
+  rails_12factor (= 0.0.2)
   rb-readline
   rollbar
   rspec-rails
+  spring (= 1.1.3)
   sqlite3
   stripe_clerk!
   therubyracer
   thin
   uglifier
+  web-console (= 2.0.0.beta3)
