@@ -69,7 +69,7 @@
               = radio_button_tag "order[shipment_type]" , s.type , s.type.to_s == @order.shipment_type , "data-price" => s.price_for(current_basket).round(2)
               = s.name
               = s.price_for(current_basket).round(2)
-              €
+
           =render "layouts/recibir"
 
         .col-md-4
@@ -85,9 +85,9 @@
                   %span#basket_total= current_basket.total_price.round(2)
                   $
             %tbody
-              %tr
-                %th= "Costo de envio"
-                %td.text-right
+              %tr.hide
+                %th.hide= "Costo de envio"
+                %td.text-right.hide
                   %span#shipping_cost= @order.shipment_price
                   $
               %tr
@@ -125,7 +125,7 @@
     %hr
     .col-md-3.hide
       .row
-        .col-md-9
+        .col-md-9.hide
           %h4.highlight= "Detalle de contacto"
           %br/
 
@@ -143,7 +143,7 @@
               %span.phone= address[:phone]
               %br/
               %br/
-              %button.btn.btn-primary.btn-xs#fill_address{:type => "button"} Käytä tätä osoitetta
+              %button.btn.btn-primary.btn-xs#fill_address{:type => "button"} Datos recientes
             -else
               =t(:login_addresses)
     .col-md-10
@@ -152,7 +152,7 @@
           %h4= "Detalle de contacto"
           = f.text_field :name , :class => "", :placeholder => "Nombre", :label => "Nombre", :value => current_clerk.name
           = f.text_field :street , :placeholder => "Calle", :label => "Calle", :value => current_clerk.street
-          = f.text_field :city , :placeholder => "Ciudad", :label => "City", :value => current_clerk.city
+          = f.text_field :city , :placeholder => "Ciudad", :label => "Ciudad", :value => current_clerk.city
           = f.text_field :phone , :placeholder => "Teléfono", :label => "Teléfono", :value => current_clerk.phone
           = f.email_field :email, :placeholder => "Email", :label => "Email", :value => current_clerk.email
           %hr

@@ -18,7 +18,7 @@ en:
   order_history: Order history
   order_more_for_free_shipping: Order %{more} €  for free shipping
   order_thanks: "Thank you for your order!"
-  order_total: Order total
+  order_total: Orden total
   our_shop: Shop
   payment_description_text: Currently the payment method is prepayment by bank. DA DA DA better change this.
   payment_header: Payment
