@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/Rehlaender/office_clerk.git
-  revision: df1cc60274a5dcbb29254c0f4e7609832e1dea01
+  revision: 4aaa7ec66aec130fa89968cf01ccab51a6e3f864
   branch: develop
   specs:
     office_clerk (1.0.0)
