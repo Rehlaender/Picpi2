@@ -1,45 +1,45 @@
 ---
 en:
-  basket_contents: Baskets contents
-  choosen_shipment: Choosen Shipment
-  close: Close
-  designed_by: Designed by
-  empty: Empty
-  log_in_see_history: To see the order history you need to log in.
-  login_addresses: If you log in you can see your previouly used addresses.
-  make_order: Make Order
-  must_accept: You must accept Terms and Conditions before making an order.
-  no_order_found: Order not found
-  no_orders_yet: You have no orders yet
-  no_stock: Temporarily out of stock
-  notice: 'Note:'
-  order_confirmation: Order confirmation
-  order_enough_for_free_shipping: "Your order qualifies for free shipping!"
-  order_history: Order history
-  order_more_for_free_shipping: Order %{more} €  for free shipping
-  order_thanks: "Thank you for your order!"
-  order_total: Orden total
-  our_shop: Shop
-  payment_description_text: Currently the payment method is prepayment by bank. DA DA DA better change this.
-  payment_header: Payment
-  payment_type: Payment
-  paid: Paid
-  powered_by: Powered by
-  previous_addresses: Previous addresses
-  previous_orders: Previous orders
-  previous_orders_here: Previous orders can be found here
-  products_total: Products total
-  read_and_agree: I have read and agree to
-  received: reveived
-  register: Register
-  register_text: If you want to register you may do so here. But you may also make orders without registering
-  shipping_address: Shipping address
-  shipping_cost: Shipping cost
-  similar_products: Same products in this group
-  terms: Term and conditions
-  thanks: Thanks you for your order
-  to_hompage: to homepage
+  basket_contents: Contenido de Carrito
+  choosen_shipment: Elija entrega
+  close: Cerrar
+  designed_by: Diseñado por
+  empty: Vacio
+  log_in_see_history: Para ver el historial de ordenes inicie sesion.
+  login_addresses: Si inicias sesion puedes ver tu historial de locaciones.
+  make_order: Hacer pedido.
+  must_accept: Acepta los terminos y condiciones para continuar.
+  no_order_found: Orden no encontrada.
+  no_orders_yet: No tienes ordedenes aun.
+  no_stock: Temporalmente fuera de stock.
+  notice: 'Nota:'
+  order_confirmation: Confirmacion de orden.
+  order_enough_for_free_shipping: "Tu orden tiene envio gratis!"
+  order_history: Historial de ordenes
+  order_more_for_free_shipping: Ordene %{more} $  para envio gratis.
+  order_thanks: "Gracias por su orden!"
+  order_total: Orden en total
+  our_shop: Tienda
+  payment_description_text: El metodo de pago es personalmente en caja.
+  payment_header: Pago
+  payment_type: Pago
+  paid: Pagado
+  powered_by: Patrocinado por
+  previous_addresses: Direccion anterior
+  previous_orders: Ordenes anteriores
+  previous_orders_here: Las ordenes anteriores pueden ser encontradas aqui
+  products_total: Total de productos
+  read_and_agree: Eh leido y accedido a
+  received: Recivido
+  register: Registrado
+  register_text: Si quieres registrarte puedes hacerlo aqui, para ordenar necesitas registrarte.
+  shipping_address: Direccion de envio
+  shipping_cost: Costo de envio
+  similar_products: Mismos productos en el grupo
+  terms: Terminos y condiciones
+  thanks: Gracias por su orden
+  to_hompage: a inicio
   total: Total
-  latest_order: Last Order
-  shop: Shop
-  use_cc: Pay with previously used credit card
+  latest_order: Ultima Orden
+  shop: Tienda
+  use_cc: Pagar con el usuario anterior
