@@ -16,7 +16,7 @@
       -products_for(@group).in_groups_of(3).each do |three|
         .row.product-listing
           -three.each do |product|
-            .col-md-4
+            .col-md-4.col-sm-6
               -next unless product
               .product-container
                 =link_to shop_product_path(:link => product.link ) do

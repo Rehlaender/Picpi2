@@ -16,7 +16,16 @@ $secondary-color: #c7e1df;
 $table-bg-accent: #E2EEF1;
 $breadcrumb-bg: rgba(213,223,255,0.3);
 
+.invert {-webkit-filter: invert(100%); filter: invert(100%);}
 
+.title {
+	text-align: center;
+}
+.howto_image{
+	width: 100%;
+	height: auto;
+	object-fit: fill;
+}
 ul.subcat {
 	font-size: .9em;
 	padding-left: 10px;
@@ -27,6 +36,9 @@ ul.cat {
 
 }
 
+.navbar{
+	background-color: #ADD8E6;
+}
 .navbar-nav li a {
   font-size: 14px;
   color: #ffffff !important;
@@ -190,11 +202,16 @@ text-shadow: rgb(255, 255, 255) 0px 0px 10px;
   width: 870px;
   }
 
+.backproduct{
+	background-color: white;
+}
+
 .product-container {
   margin-bottom: 31px;
   position: relative;
   box-shadow: 1px 1px 8px rgba(210,210,210,1);
   overflow: hidden;
+	background-color: white;
   }
 
 .product-container h4 {
@@ -298,6 +315,13 @@ h1.product-title {
 	}
 }
 
+.shipping-info{
+	background-color: white;
+}
+.intro-text{
+	color: gray;
+}
+
 .shipping-info h5
   { position: relative;
     line-height: 120%;
@@ -343,8 +367,21 @@ h1.product-title {
 body {
     margin-top: 0px;
     /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+		background-color: #82c8dd;
 }
 
+.title{
+	color: white;
+}
+.imagenfill{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: fill;
+	max-height: 300px;
+	width: 100%;
+	height: auto;
+}
 .banner {
     text-align: center;
     background: image-url("kauppa/violetti-lev.jpg") no-repeat center center;
