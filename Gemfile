@@ -22,6 +22,8 @@ gem 'rails-i18n'
 #one wishes one would not need it. alas . . .
 gem 'rack-attack'
 
+#imagenes
+gem 'cloudinary'
 # error collection
 gem 'rollbar'
 
