@@ -207,6 +207,7 @@ text-shadow: rgb(255, 255, 255) 0px 0px 10px;
   position: relative;
   box-shadow: 1px 1px 8px rgba(210,210,210,1);
   overflow: hidden;
+	background-color: white;
   }
 
 .product-container h4 {
@@ -308,6 +309,13 @@ h1.product-title {
 	table {
 	border: 0px;
 	}
+}
+
+.shipping-info{
+	background-color: white;
+}
+.intro-text{
+	color: gray;
 }
 
 .shipping-info h5
