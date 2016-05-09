@@ -16,6 +16,8 @@ $secondary-color: #c7e1df;
 $table-bg-accent: #E2EEF1;
 $breadcrumb-bg: rgba(213,223,255,0.3);
 
+.invert {-webkit-filter: invert(100%); filter: invert(100%);}
+
 .title {
 	text-align: center;
 }
@@ -34,6 +36,9 @@ ul.cat {
 
 }
 
+.navbar{
+	background-color: #ADD8E6;
+}
 .navbar-nav li a {
   font-size: 14px;
   color: #ffffff !important;
@@ -350,8 +355,12 @@ h1.product-title {
 body {
     margin-top: 0px;
     /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+		background-color: #82c8dd;
 }
 
+.title{
+	color: white;
+}
 .banner {
     text-align: center;
     background: image-url("kauppa/violetti-lev.jpg") no-repeat center center;
