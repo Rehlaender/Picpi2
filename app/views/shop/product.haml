@@ -20,17 +20,18 @@
           .col-md-12
             %strong= @product.name
             = markdown @product.description rescue ""
-
-        .row
-          .col-md-8
-            = form_tag(cart_add_url(:id => @product.id)) do
-              #inside-product-cart-form
-                .add-to-cart
-                  .row
-                    .col-md-10
-                      %button#add-to-cart-button.btn.btn-primary{:type => :submit, :class => @product.has_inventory? || "disabled" }
-                        = @product.has_inventory? ? "Agregar al carrito" : "Producto sin stock"
-
+        - if current_clerk
+          .row
+            .col-md-8
+              = form_tag(cart_add_url(:id => @product.id)) do
+                #inside-product-cart-form
+                  .add-to-cart
+                    .row
+                      .col-md-10
+                        %button#add-to-cart-button.btn.btn-primary{:type => :submit, :class => @product.has_inventory? || "disabled" }
+                          = @product.has_inventory? ? "Agregar al carrito" : "Producto sin stock"
+        - else
+        
     .row
       .col-md-12
         %br/
