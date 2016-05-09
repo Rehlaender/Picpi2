@@ -24,7 +24,9 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to 'Nosotros', "/page/nosotros", :class=>"" %></li>
         <%= render "layouts/wea" %>
-        <li class="bg-high1"><%= render "layouts/carrito" %></li>
+        <% if current_clerk %>
+          <li class="bg-high1"><%= render "layouts/carrito" %></li>
+        <% end %>
       </ul>
     </div>
   </div>
