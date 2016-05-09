@@ -361,6 +361,15 @@ body {
 .title{
 	color: white;
 }
+.imagenfill{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: fill;
+	max-height: 300px;
+	width: 100%;
+	height: auto;
+}
 .banner {
     text-align: center;
     background: image-url("kauppa/violetti-lev.jpg") no-repeat center center;
