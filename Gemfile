@@ -4,6 +4,9 @@ source 'https://rubygems.org'
 gem 'accountant_clerk' , github: "rubyclerks/accountant_clerk"
 #gem 'accountant_clerk' , path: "../accountant_clerk"
 
+#Export db
+gem 'seed_dump'
+
 gem "print_clerk", github: "Rehlaender/print_clerk", branch: "develop"
 #gem 'print_clerk' , path: "../print_clerk"
 
