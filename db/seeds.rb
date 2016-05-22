@@ -66,7 +66,7 @@ Product.create(id: 3, price: 12.0, name: "Cheetos", link: "cheetos", description
   extra_picture_content_type: nil, extra_picture_file_size: nil, extra_picture_updated_at: nil, online: true,
   cost: 5.0, weight: 0.1, ean: "3", tax: 24.0, inventory: 12, stock_level: 0, properties: {}, scode: "3",
   deleted_on: nil, product_id: nil, category_id: 1, supplier_id: 1, created_at: "2016-05-15 19:29:20", updated_at: "2016-05-19 01:45:53")
-Prodcut.create(id: 4, price: 70.0, name: "Res", link: "res", description: "Medio kilo de carne de res.",
+Product.create(id: 4, price: 70.0, name: "Res", link: "res", description: "Medio kilo de carne de res.",
   summary: "Medio kilo de carne de res.", main_picture_file_name: "res.jpg", main_picture_content_type: "image/jpeg",
   main_picture_file_size: 42166, main_picture_updated_at: "2016-05-15 19:32:05", extra_picture_file_name: nil,
   extra_picture_content_type: nil, extra_picture_file_size: nil, extra_picture_updated_at: nil, online: true,
